@@ -41,12 +41,151 @@ body {
   font-family: "Plumb";
   overflow-x: hidden;
   box-sizing: border-box;
-  color: white;
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1380px;
   margin: 0 auto;
+}
+
+.info-section {
+  background: url(../../img/bc-img/sircle-bc.png);
+  margin-top: 40px;
+}
+.info-section .info-section__header {
+  margin-bottom: 30px;
+}
+.info-section .info-section__header .info-section__title {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 71%;
+  text-transform: uppercase;
+  letter-spacing: -7px;
+  color: #D60000;
+  margin-bottom: 10px;
+}
+.info-section .info-section__nav {
+  display: flex;
+  gap: 35px;
+}
+.info-section .info-section__nav .info-section__nav-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+.info-section .info-section__articles {
+  display: flex;
+  justify-content: space-between;
+}
+.info-section .info-section__articles .info-card__image {
+  width: 376px;
+  height: 248px;
+  margin-bottom: 20px;
+}
+.info-section .info-section__articles .info-card__image img {
+  width: 100%;
+  height: 100%;
+}
+.info-section .info-card__content .info-card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #D60000;
+  margin-bottom: 16px;
+  max-width: 381px;
+}
+.info-section .info-card__content .info-card__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  max-width: 361px;
+  color: #000000;
+  opacity: 70%;
+  margin-bottom: 40px;
+}
+.info-section .info-card__content .auction-heading {
+  max-width: 360px;
+  margin-bottom: 40px;
+}
+.info-section .info-card__content .auction-description {
+  margin-bottom: 22px;
+  max-width: 335px;
+}
+.info-section .info-card__link-wrap {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+.info-section .info-card__link-wrap .info-card__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #D60000;
+}
+.info-section .info-card__link-wrap img {
+  width: 15px;
+  height: 15px;
+}
+
+.import-difference-card {
+  background-image: url(../../img/product-img/cars-parking.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 380px;
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.import-difference-card .info-card__header .info-card__title {
+  max-width: 250px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 109%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.import-difference-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #D60000;
+  opacity: 66%;
+  z-index: 1;
+}
+.import-difference-card .info-card__footer,
+.import-difference-card .info-card__header {
+  z-index: 3;
+}
+.import-difference-card .info-card__footer {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.import-difference-card .info-card__footer .info-card__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #FFFFFF;
+}
+.import-difference-card .info-card__footer .info-card__icon path {
+  fill: #fff;
 }
 
 .footer__main {
@@ -54,10 +193,21 @@ body {
   padding: 31px 0 15px 0;
 }
 
+.footer-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.footer-top .red__line {
+  width: 459px;
+  height: 1px;
+  background-color: #D60000;
+}
+
 .footer__logo {
   width: 188px;
   height: 80px;
-  margin: 0 auto 35px auto;
+  margin: 0 auto 0 auto;
 }
 
 .footer__logo img {
@@ -89,11 +239,11 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 173%;
-  letter-spacing: 2.5%;
   display: flex;
   gap: 9px;
   align-items: center;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .footer__orab-turuvchi {
@@ -118,7 +268,8 @@ body {
   line-height: 81%;
   margin-bottom: 15px;
   color: #FFFFFF;
-  opacity: 55%;
+  opacity: 0.7;
+  cursor: pointer;
 }
 .footer__sections .footer__column.first {
   margin-right: 57px;
@@ -148,6 +299,9 @@ body {
   font-size: 10px;
   line-height: 100%;
   color: #FFFFFF;
+}
+.footer__bottom .footer__bottom-orab .footer__copy a {
+  color: white;
 }
 .footer__bottom .footer__bottom-orab .second__orab-turuvchi {
   display: flex;
