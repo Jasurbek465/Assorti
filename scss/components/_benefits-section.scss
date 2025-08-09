@@ -1,0 +1,91 @@
+.benefits-section {
+    background: url(../../img/bc-img/sircle-bc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .info-section__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // margin-bottom: 108px;
+    }
+
+    .info-section__text-block {
+        .section-title {
+            line-height: normal;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .info-section__list {
+        display: flex;
+        gap: 25px;
+
+        .info-section__list-item {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 180%;
+            letter-spacing: 7px;
+        }
+    }
+
+    .info-section__image-block {
+        padding: 42.5px 10px;
+        border: 2px solid black;
+        border-radius: 50px;
+
+        .info-section__image {}
+    }
+}
+
+.nimadir3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .info-card__item {
+        .info-card__number {
+            font-weight: 900;
+            font-size: 100px;
+            line-height: 85%;
+            text-transform: uppercase;
+            margin-bottom: 26px;
+            letter-spacing: -15px;
+        }
+
+        .info-card__subtitle {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+        }
+    }
+}
+.info-card__item--gallery{
+    .info-card__content{
+        color: #D60000;
+    }
+}
+.letter-wide {
+    padding: 82px 34px;
+    border: 7px solid black;
+
+}
+
+.letter-wide{
+    position: relative;
+    z-index: 1;
+}
+.japan-map {
+    position: absolute;
+    bottom: -106px;
+    right: 310px;
+    opacity: 1;
+    z-index: -1;
+    transform: rotate(1deg);
+}
+
+.nimadir2 {
+    margin-bottom: 22px;
+}

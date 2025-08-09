@@ -1,7 +1,3 @@
-.info-section {
-    background: url(../../img/bc-img/sircle-bc.png);
-    margin-top: 40px;
-
     .info-section__header {
         margin-bottom: 30px;
 
@@ -22,7 +18,7 @@
 
         .info-section__nav-item {
             font-weight: bold;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 180%;
             letter-spacing: 11px;
             text-transform: uppercase;
@@ -30,53 +26,63 @@
         }
     }
 
+    .info-section {
+        background: url(../../img/bc-img/sircle-bc.png);
+        padding: 150px 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
 
-    .info-section__articles {
-        display: flex;
-        justify-content: space-between;
 
-        .info-card__image {
-            width: 376px;
-            height: 248px;
-            margin-bottom: 20px;
+
+        .info-section__articles {
+            display: flex;
+            justify-content: space-between;
+
+            .info-card__image {
+                width: 376px;
+                height: 248px;
+                margin-bottom: 20px;
+            }
+
+            .info-card__image img {
+                width: 100%;
+                height: 100%;
+            }
         }
 
-        .info-card__image img {
-            width: 100%;
-            height: 100%;
-        }
-    }
+        .info-card__content {
+            .info-card__title {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: #D60000;
+                margin-bottom: 16px;
+                max-width: 381px;
+            }
 
-    .info-card__content {
-        .info-card__title {
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 120%;
-            text-transform: uppercase;
-            color: #D60000;
-            margin-bottom: 16px;
-            max-width: 381px;
+            .info-card__text {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 130%;
+                max-width: 361px;
+                color: #000000;
+                opacity: 70%;
+                margin-bottom: 40px;
+            }
+
+            .auction-heading {
+                max-width: 360px;
+                margin-bottom: 40px;
+            }
+
+            .auction-description {
+                margin-bottom: 22px;
+                max-width: 335px;
+            }
         }
 
-        .info-card__text {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 130%;
-            max-width: 361px;
-            color: #000000;
-            opacity: 70%;
-            margin-bottom: 40px;
-        }
-
-        .auction-heading {
-            max-width: 360px;
-            margin-bottom: 40px;
-        }
-
-        .auction-description {
-            margin-bottom: 22px;
-            max-width: 335px;
-        }
     }
 
     .info-card__link-wrap {
@@ -99,56 +105,59 @@
         width: 15px;
         height: 15px;
     }
-}
 
-.import-difference-card {
-    background-image: url(../../img/product-img/cars-parking.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: 380px;
-    height: 486px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 35px;
-    padding-left: 24px;
-    padding-right: 24px;
-
-
-    .info-card__header {
-        .info-card__title {
-            max-width: 250px;
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 109.00000000000001%;
-            text-transform: uppercase;
-            color: #fff;
-        }
-    }
-
-    &::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
+    .import-difference-card {
+        background-image: url(../../img/product-img/cars-parking.png);
+        background-size: cover;
+        background-position: center;
         background-color: #D60000;
-        opacity: 66%;
-        z-index: 1;
-    }
+        background-blend-mode: multiply;
+        position: relative;
+        width: 380px;
+        height: 486px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        padding-left: 24px;
+        padding-right: 24px;
 
-    .info-card__footer,
-    .info-card__header {
-        z-index: 3;
-    }
 
+        .info-card__header {
+            .info-card__title {
+                max-width: 250px;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 109.00000000000001%;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     width: 100%;
+        //     height: 100%;
+        //     top: 0;
+        //     left: 0;
+        //     background-color: #D60000;
+        //     opacity: 66%;
+        //     z-index: 1;
+        // }
+
+        // .info-card__footer,
+        // .info-card__header {
+        //     z-index: 3;
+        // }
+
+    }
     .info-card__footer {
         display: flex;
         align-items: center;
         gap: 13px;
+
         .info-card__link {
             font-weight: 400;
             font-size: 14px;
@@ -163,4 +172,3 @@
         }
 
     }
-}
