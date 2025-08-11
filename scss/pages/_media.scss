@@ -15,7 +15,14 @@
     display: flex;
     gap: 20px;
 }
-
+.info-card__image,
+.info-card__content{
+    padding-inline: 10px;
+}
+.import-difference-card{
+    width: 370px;
+    margin-right: 10px;
+}
 .info-card__subtitle {
     display: inline-block;
     /* yoki block, kerakli joyiga qarab */
@@ -128,7 +135,12 @@
         align-items: center;
         width: fit-content;
     }
-
+    .info-section{
+        padding: 63px 0;
+    }
+    .info-section__header{
+        padding: 10px;
+    }
     .info-section__header .info-section__title {
         font-weight: 900;
         font-size: 32px;
@@ -248,7 +260,7 @@
 
     .info-section__nav {
         gap: 4px;
-
+        flex-direction: column;
     }
 
     .nimadir9{

@@ -62,28 +62,92 @@
         }
     }
 }
-.info-card__item--gallery{
-    .info-card__content{
+
+.info-card__item--gallery {
+    .info-card__content {
         color: #D60000;
     }
 }
+
 .letter-wide {
-    padding: 82px 34px;
-    border: 7px solid black;
+    // padding: 82px 34px;
+    // border: 7px solid black;
 
 }
 
-.letter-wide{
+.info-card__item--gallery .info-card__content {
     position: relative;
     z-index: 1;
 }
+.border{
+    position: absolute;
+    top: 245px;
+    right: 400px;
+    z-index: -1;
+}
 .japan-map {
     position: absolute;
-    bottom: -106px;
-    right: 310px;
+    bottom: -56px;
+    right: 290px;
     opacity: 1;
     z-index: -1;
-    transform: rotate(1deg);
+    transform: rotate(2deg);
+}
+
+.index-advan-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 90px;
+    width: 217px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-advan-btn {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.index-advan-btn a {
+    width: 217px;
+}
+
+.red-btn {
+    font-family: 'Plumb-medium', sans-serif;
+    background: #D60000;
+    height: 50px;
+    border: none;
+    width: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 79.4%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #D60000;
+    transition: all .2s linear;
+}
+
+.red-btn:hover {
+    background: #fff;
+    color: #D60000;
+}
+.make-meeting-sec .make-meeting .red-btn {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 79.4%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.make-meeting-sec .make-meeting .red-btn:hover {
+	color: #D60000;
 }
 
 .nimadir2 {
