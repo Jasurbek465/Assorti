@@ -6,7 +6,8 @@
 
 .profile,
 .icon-wrapper,
-.order-btn-wrapper {
+.order-btn-wrapper,
+.nimadir5 {
     display: none;
 }
 
@@ -107,6 +108,7 @@
     }
 
     .nimadir5 {
+        display: block;
         width: 67px;
         height: 31px;
         margin-top: 7.78px;
@@ -175,6 +177,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all .2s linear;
 
         .order-btn {
             font-weight: 700;
@@ -184,9 +187,16 @@
             text-align: center;
             text-transform: uppercase;
             color: white;
+            transition: all .2s linear;
         }
     }
-
+     .order-btn-wrapper:hover .order-btn {
+        color: #D60000;
+    }
+    .order-btn-wrapper:hover {
+        background-color: white;
+        border: #000 solid 1px;
+    }
     .nimadir2 {
         gap: 47px;
         margin: 0;
@@ -241,7 +251,7 @@
 
     }
 
-    .info-card__link {
+    .nimadir9{
         display: none;
     }
 
@@ -262,7 +272,6 @@
             height: 35px;
         }
     }
-
     .nimadir1,
     .profile {
         display: block !important;

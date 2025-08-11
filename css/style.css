@@ -418,7 +418,8 @@ body {
 
 .profile,
 .icon-wrapper,
-.order-btn-wrapper {
+.order-btn-wrapper,
+.nimadir5 {
   display: none;
 }
 
@@ -502,6 +503,7 @@ body {
     height: 40px;
   }
   .nimadir5 {
+    display: block;
     width: 67px;
     height: 31px;
     margin-top: 7.78px;
@@ -559,6 +561,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s linear;
   }
   .order-btn-wrapper .order-btn {
     font-weight: 700;
@@ -568,6 +571,14 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: white;
+    transition: all 0.2s linear;
+  }
+  .order-btn-wrapper:hover .order-btn {
+    color: #D60000;
+  }
+  .order-btn-wrapper:hover {
+    background-color: white;
+    border: #000 solid 1px;
   }
   .nimadir2 {
     gap: 47px;
@@ -611,7 +622,7 @@ body {
   .info-section__nav {
     gap: 4px;
   }
-  .info-card__link {
+  .nimadir9 {
     display: none;
   }
   .benefits-section .info-section__list .info-section__list-item {
