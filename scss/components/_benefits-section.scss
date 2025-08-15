@@ -46,6 +46,12 @@
     align-items: center;
 
     .info-card__item {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
         .info-card__number {
             font-weight: 900;
             font-size: 100px;
@@ -69,30 +75,27 @@
     }
 }
 
-.letter-wide {
-    // padding: 82px 34px;
-    // border: 7px solid black;
-
-}
-
-.info-card__item--gallery .info-card__content {
+.info-card__item--gallery {
     position: relative;
     z-index: 1;
 }
-.border{
+
+.border {
     position: absolute;
-    top: 245px;
-    right: 400px;
+    top: -50px;
+    right: -35px;
     z-index: -1;
 }
+
 .japan-map {
     position: absolute;
-    bottom: -56px;
-    right: 290px;
+    bottom: -320px;
+    right: -145px;
     opacity: 1;
     z-index: -1;
     transform: rotate(2deg);
 }
+
 .index-advan-btn {
     display: flex;
     justify-content: center;
@@ -101,6 +104,8 @@
     width: 217px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .index-advan-btn {
@@ -136,17 +141,18 @@
     background: #fff;
     color: #D60000;
 }
+
 .make-meeting-sec .make-meeting .red-btn {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 79.4%;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 79.4%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .make-meeting-sec .make-meeting .red-btn:hover {
-	color: #D60000;
+    color: #D60000;
 }
 
 .nimadir2 {

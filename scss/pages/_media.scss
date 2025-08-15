@@ -7,7 +7,8 @@
 .profile,
 .icon-wrapper,
 .order-btn-wrapper,
-.nimadir5 {
+.nimadir5,
+.nimadir12 {
     display: none;
 }
 
@@ -15,34 +16,37 @@
     display: flex;
     gap: 20px;
 }
+
+.nimadir10 {
+    color: #D60000;
+}
+
 .info-card__image,
-.info-card__content{
+.info-card__content {
     padding-inline: 10px;
 }
-.import-difference-card{
+
+.import-difference-card {
     width: 370px;
     margin-right: 10px;
 }
+
 .info-card__subtitle {
     display: inline-block;
-    /* yoki block, kerakli joyiga qarab */
     max-width: 150px;
-    /* matn qaysi kenglikda bo‘linishini belgilaydi */
     line-height: 1.4;
-    /* qatorlar orasidagi masofa */
     word-wrap: break-word;
-    /* so‘zlarni bo‘lib qatorga tushiradi */
     white-space: normal;
-    /* matnni qatorga bo‘lishga ruxsat beradi */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 725px) {
     .footer__main {
         padding: 18px 26px;
     }
 
     .footer-top {
         justify-content: space-between;
+        margin-bottom: 25px;
     }
 
     .footer-top .red__line {
@@ -135,18 +139,22 @@
         align-items: center;
         width: fit-content;
     }
-    .info-section{
+
+    .info-section {
         padding: 63px 0;
     }
-    .info-section__header{
+
+    .info-section__header {
         padding: 10px;
     }
+
     .info-section__header .info-section__title {
         font-weight: 900;
         font-size: 32px;
         line-height: 85% !important;
         letter-spacing: -3px;
         text-transform: uppercase;
+        margin-top: 63px;
 
     }
 
@@ -165,8 +173,17 @@
         display: flex;
     }
 
+    .nimadir2 {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 13px 23px 13px;
+        align-items: center;
+    }
+
     .nimadir7 {
-        margin-left: auto;
+        // margin-left: auto;
     }
 
     .info-card__item {
@@ -175,6 +192,7 @@
         gap: 25px;
         width: 100%;
         padding: 13px;
+        padding-left: 17px;
     }
 
     .japan-map {
@@ -202,15 +220,20 @@
             transition: all .2s linear;
         }
     }
-     .order-btn-wrapper:hover .order-btn {
+
+    .order-btn-wrapper:hover .order-btn {
         color: #D60000;
     }
+
     .order-btn-wrapper:hover {
         background-color: white;
         border: #000 solid 1px;
     }
+
     .nimadir2 {
-        gap: 47px;
+        // gap: 47px;
+
+        justify-content: space-between;
         margin: 0;
         align-items: center;
     }
@@ -250,6 +273,12 @@
 
     }
 
+    .nimadir10 {
+        display: flex;
+        color: #D60000;
+        gap: 35px;
+    }
+
     .info-section__nav .info-section__nav-item {
         font-weight: 900;
         font-size: 14px;
@@ -263,7 +292,7 @@
         flex-direction: column;
     }
 
-    .nimadir9{
+    .nimadir9 {
         display: none;
     }
 
@@ -284,15 +313,130 @@
             height: 35px;
         }
     }
+
     .nimadir1,
-    .profile {
+    .profile,
+    .nimadir12 {
         display: block !important;
 
     }
 
+    .nimadir3 .info-card__item {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .info-card__content {
+        padding: 0;
+    }
+
+    .footer__orab-turuvchi {
+        padding: 0;
+    }
+
+    // product media start
+    .section {
+        padding-bottom: 45px;
+    }
+
+    .end-col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .swiper-wrapper {
+        position: unset;
+    }
+
+    .end-block {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .swiper-slide {
+        overflow-x: hidden;
+    }
+
+    .swiper-slide .end-block .end-round {
+        opacity: 1;
+        width: 346px;
+        height: 346px;
+        left: -73px;
+        bottom: 172px;
+    }
+
+    .special-offer__circle {
+        margin-left: 5px;
+        justify-content: unset;
+        padding: 0;
+
+    }
+
+    .special-offer .special-offer__circle .special-offer__title {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 112.52%;
+        margin-bottom: 19px;
+        width: 226px;
+    }
+
+    .special-offer .special-offer__circle .special-offer__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 112.99999999999999%;
+        width: 231px;
+    }
+
+    .special-offer {
+        top: 45px;
+        bottom: auto;
+        left: 7px;
+        max-width: 230px;
+
+    }
+
+    .end-block .end-slide-content {
+        margin-top: 270px;
+    }
+
+    /* Barcha nuqtalar dumaloq */
+    .swiper-pagination{
+        bottom:  -6px !important;
+        right: 0;
+        display: block;
+    }
+    .special-offers__pagination .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+        background: red;
+        opacity: 1;
+        /* rang to‘liq chiqishi uchun */
+        border-radius: 50px;
+        transition: all 0.3s ease;
+    }
+
+    /* Active bo‘lgani uzun bo‘lishi uchun */
+    .special-offers__pagination .swiper-pagination-bullet-active {
+        width: 20px;
+        /* uzunligi */
+        border-radius: 10px;
+        /* kapsula shakli */
+    }
+
+
+
+
+
     .footer__sections,
     .header__order-btn,
-    .nimadir4 {
+    .nimadir4,
+    .index-advan-btn,
+    .border,
+    .nimadir13 {
         display: none !important;
     }
 

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -366,10 +365,6 @@ body {
   display: none;
 }
 
-.special-offers__swiper {
-  transition: all 0.3s linear;
-}
-
 .special-offer {
   display: flex;
   align-items: center;
@@ -458,6 +453,10 @@ body {
 
 .end-slide-content img {
   width: 100%;
+}
+
+.swiper-wrapper {
+  transition: all 0.3s linear;
 }
 
 .footer__main {
@@ -590,8 +589,7 @@ body {
 .profile,
 .icon-wrapper,
 .order-btn-wrapper,
-.nimadir5,
-.nimadir12 {
+.nimadir5 {
   display: none;
 }
 
@@ -628,7 +626,6 @@ body {
   }
   .footer-top {
     justify-content: space-between;
-    margin-bottom: 25px;
   }
   .footer-top .red__line {
     display: none;
@@ -701,6 +698,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: -moz-fit-content;
     width: fit-content;
   }
   .info-section {
@@ -715,7 +713,6 @@ body {
     line-height: 85% !important;
     letter-spacing: -3px;
     text-transform: uppercase;
-    margin-top: 63px;
   }
   .benefits-section .info-section__list {
     gap: 8px;
@@ -842,8 +839,7 @@ body {
     height: 35px;
   }
   .nimadir1,
-  .profile,
-  .nimadir12 {
+  .profile {
     display: block !important;
   }
   .nimadir3 .info-card__item {
@@ -856,95 +852,15 @@ body {
   .info-card__content {
     padding: 0;
   }
-  .footer__orab-turuvchi {
-    padding: 0;
-  }
-  .section {
-    padding-bottom: 45px;
-  }
-  .end-col {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .swiper-wrapper {
-    position: unset;
-  }
-  .end-block {
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  .swiper-slide {
-    overflow-x: hidden;
-  }
-  .swiper-slide .end-block .end-round {
-    opacity: 1;
-    width: 346px;
-    height: 346px;
-    left: -73px;
-    bottom: 172px;
-  }
-  .special-offer__circle {
-    margin-left: 5px;
-    justify-content: unset;
-    padding: 0;
-  }
-  .special-offer .special-offer__circle .special-offer__title {
-    margin-top: 0;
-    font-size: 18px;
-    line-height: 112.52%;
-    margin-bottom: 19px;
-    width: 226px;
-  }
-  .special-offer .special-offer__circle .special-offer__desc {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 113%;
-    width: 231px;
-  }
-  .special-offer {
-    top: 45px;
-    bottom: auto;
-    left: 7px;
-    max-width: 230px;
-  }
-  .end-block .end-slide-content {
-    margin-top: 270px;
-  }
-  /* Barcha nuqtalar dumaloq */
-  .swiper-pagination {
-    bottom: -6px !important;
-    right: 0;
-    display: block;
-  }
-  .special-offers__pagination .swiper-pagination-bullet {
-    width: 5px;
-    height: 5px;
-    background: red;
-    opacity: 1;
-    /* rang to‘liq chiqishi uchun */
-    border-radius: 50px;
-    transition: all 0.3s ease;
-  }
-  /* Active bo‘lgani uzun bo‘lishi uchun */
-  .special-offers__pagination .swiper-pagination-bullet-active {
-    width: 20px;
-    /* uzunligi */
-    border-radius: 10px;
-    /* kapsula shakli */
-  }
   .footer__sections,
   .header__order-btn,
   .nimadir4,
   .index-advan-btn,
-  .border,
-  .nimadir13 {
+  .border {
     display: none !important;
   }
   .info-section__articles {
     overflow: auto;
     scrollbar-width: none;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
