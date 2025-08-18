@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
 }
-
+.nimadir4{
+    margin-top: 11px;
+}
 .profile,
 .icon-wrapper,
 .order-btn-wrapper,
@@ -414,17 +416,13 @@
         height: 5px;
         background: red;
         opacity: 1;
-        /* rang to‘liq chiqishi uchun */
         border-radius: 50px;
         transition: all 0.3s ease;
     }
 
-    /* Active bo‘lgani uzun bo‘lishi uchun */
     .special-offers__pagination .swiper-pagination-bullet-active {
         width: 20px;
-        /* uzunligi */
         border-radius: 10px;
-        /* kapsula shakli */
     }
 
 
