@@ -100,10 +100,12 @@
             color: #D60000;
         }
     }
-
-    .info-card__link-wrap img {
+    .info-card__link-wrap svg {
         width: 15px;
         height: 15px;
+    }
+    .info-card__link-wrap:hover svg{
+        margin-left: 10px;
     }
 
     .import-difference-card {

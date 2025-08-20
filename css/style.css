@@ -93,12 +93,12 @@ body {
 .main-sec .title h1 {
   font-weight: 900;
   font-size: 140px;
-  line-height: 84.52%;
+  line-height: 92.52%;
   letter-spacing: -0.16em;
   text-transform: uppercase;
   color: #D60000;
-  margin-left: 60px;
   margin-bottom: 120px;
+  margin-left: 72px;
 }
 
 .main-sec .main-text {
@@ -140,7 +140,7 @@ body {
   padding: 20px 0;
   background: #fff;
   position: absolute;
-  right: -78px;
+  right: -115px;
   bottom: 20px;
   z-index: 100;
 }
@@ -298,6 +298,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 161px;
 }
 .benefits-section .info-section__header {
   display: flex;
@@ -525,9 +526,13 @@ body {
   color: #D60000;
 }
 
-.info-card__link-wrap img {
+.info-card__link-wrap svg {
   width: 15px;
   height: 15px;
+}
+
+.info-card__link-wrap:hover svg {
+  margin-left: 10px;
 }
 
 .import-difference-card {
@@ -576,10 +581,6 @@ body {
 .section {
   padding-top: 50px;
   border-top: 1px solid #000;
-}
-
-.swiper-pagination {
-  display: none;
 }
 
 .special-offers__swiper {
@@ -805,6 +806,7 @@ body {
 
 .nimadir4 {
   margin-top: 11px;
+  margin-left: -15px;
 }
 
 .profile,
@@ -909,6 +911,9 @@ body {
     width: 67px;
     height: 31px;
     margin-top: 7.78px;
+  }
+  .header .header__container {
+    padding-right: 8.2px;
   }
   .header__container .header__menu-btn img {
     width: 12.49px;
@@ -1148,6 +1153,25 @@ body {
   .special-offers__pagination .swiper-pagination-bullet-active {
     width: 20px;
     border-radius: 10px;
+  }
+  .main-sec {
+    background-image: none;
+  }
+  .container .title {
+    width: 350px;
+  }
+  .container .title h1 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 85%;
+    letter-spacing: -9px;
+    text-transform: uppercase;
+    margin: 0;
+    width: 100% !important;
+  }
+  .main-sec .main-word h3,
+  .main-sec .main-btn a {
+    display: none;
   }
   .footer__sections,
   .header__order-btn,

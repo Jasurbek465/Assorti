@@ -3,9 +3,12 @@
     display: flex;
     align-items: center;
 }
-.nimadir4{
+
+.nimadir4 {
     margin-top: 11px;
+    margin-left: -15px;
 }
+
 .profile,
 .icon-wrapper,
 .order-btn-wrapper,
@@ -125,6 +128,10 @@
         width: 67px;
         height: 31px;
         margin-top: 7.78px;
+    }
+
+    .header .header__container {
+        padding-right: 8.2px;
     }
 
     .header__container .header__menu-btn img {
@@ -406,11 +413,12 @@
     }
 
     /* Barcha nuqtalar dumaloq */
-    .swiper-pagination{
-        bottom:  -6px !important;
+    .swiper-pagination {
+        bottom: -6px !important;
         right: 0;
         display: block;
     }
+
     .special-offers__pagination .swiper-pagination-bullet {
         width: 5px;
         height: 5px;
@@ -424,8 +432,28 @@
         width: 20px;
         border-radius: 10px;
     }
-
-
+    .main-sec{
+        background-image: none;
+    }
+    .container {
+        .title{
+            width: 350px;
+        }
+        .title h1 {
+            font-weight: 900;
+            font-size: 55px;
+            line-height: 85%;
+            letter-spacing: -9px;
+            text-transform: uppercase;
+            margin: 0;
+            width: 100% !important;
+        }
+    }
+    
+    .main-sec .main-word h3,
+    .main-sec .main-btn a{
+        display: none;
+    }
 
 
 
