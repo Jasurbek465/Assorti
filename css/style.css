@@ -50,7 +50,7 @@ body {
 }
 
 .container-2 {
-  max-width: 1180px;
+  max-width: 1032px;
   margin: 0 auto;
 }
 
@@ -79,10 +79,9 @@ body {
 
 .main-sec {
   position: relative;
-  padding-top: 15px;
   background-image: url("../img/index-bg.png");
   background-repeat: no-repeat;
-  background-position: top right 100px;
+  background-position: top -80px right 68px;
 }
 
 .main-sec .main-col {
@@ -93,20 +92,20 @@ body {
 .main-sec .title h1 {
   font-weight: 900;
   font-size: 140px;
-  line-height: 92.52%;
+  line-height: 105.52%;
   letter-spacing: -0.16em;
   text-transform: uppercase;
   color: #D60000;
-  margin-bottom: 120px;
-  margin-left: 72px;
+  margin-bottom: 115px;
+  margin-left: 83px;
 }
 
 .main-sec .main-text {
   max-width: 113px;
-  margin-left: 60px;
+  margin-left: 68px;
   margin-right: 35px;
   text-align: start;
-  margin-top: 183px;
+  margin-top: 173px;
 }
 
 .main-sec .main-text p {
@@ -116,32 +115,30 @@ body {
   color: #000000;
 }
 
-.main-sec .main-word h3 {
+.main-word h3 {
   font-weight: 900;
   font-size: 34px;
-  line-height: 53px;
+  line-height: 45px;
   text-transform: uppercase;
   color: #000;
-  border: 7px solid #000;
-  height: 545px;
+  border: 5px solid #000;
+  height: 487px;
   display: flex;
   justify-content: center;
-  width: 165px;
-  left: 120px;
-  right: 0;
-  top: 32%;
+  width: 142px;
   display: flex;
   gap: 10px;
   text-align: start;
   padding-top: 30px;
+  margin-top: -10px;
 }
 
 .main-sec .main-btn {
   padding: 20px 0;
   background: #fff;
   position: absolute;
-  right: -115px;
-  bottom: 20px;
+  right: -138px;
+  bottom: 26px;
   z-index: 100;
 }
 
@@ -150,7 +147,8 @@ body {
 }
 
 .main-sec .main-content {
-  margin-top: -95px;
+  margin-top: -154px;
+  margin-left: -95px;
 }
 
 .main-content .meida-slide-img {
@@ -173,13 +171,13 @@ body {
 
 .main-slide .swiper-pagination2 {
   position: absolute;
-  right: 20px;
-  bottom: 35px;
+  right: 18px;
+  bottom: 55px;
   text-align: right;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  padding-right: 30px;
+  padding-right: 46px;
   z-index: 2;
 }
 
@@ -298,7 +296,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 161px;
+  padding-top: 85px;
+  padding-bottom: 220px;
 }
 .benefits-section .info-section__header {
   display: flex;
@@ -306,7 +305,7 @@ body {
   align-items: center;
 }
 .benefits-section .info-section__text-block .section-title {
-  line-height: normal;
+  line-height: 105px;
   margin-bottom: 0 !important;
 }
 .benefits-section .info-section__list {
@@ -321,9 +320,11 @@ body {
   letter-spacing: 7px;
 }
 .benefits-section .info-section__image-block {
-  padding: 42.5px 10px;
+  padding: 41px 17px;
   border: 2px solid black;
   border-radius: 50px;
+  margin-right: 13px;
+  margin-top: 6px;
 }
 .nimadir3 {
   display: flex;
@@ -331,7 +332,7 @@ body {
   align-items: center;
 }
 .nimadir3 .info-card__item {
-  height: 240px;
+  height: 271px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -342,8 +343,10 @@ body {
   font-size: 100px;
   line-height: 85%;
   text-transform: uppercase;
-  margin-bottom: 26px;
   letter-spacing: -15px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  margin-right: -22px;
 }
 .nimadir3 .info-card__item .info-card__subtitle {
   font-weight: 700;
@@ -365,24 +368,25 @@ body {
   top: -50px;
   right: -35px;
   z-index: -1;
+  margin-right: -32px;
 }
 
 .japan-map {
   position: absolute;
-  bottom: -320px;
-  right: -145px;
+  bottom: -314px;
+  right: -186px;
   opacity: 1;
   z-index: -1;
-  transform: rotate(2deg);
+  transform: rotate(360deg);
 }
 
 .index-advan-btn {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 90px;
+  margin-top: 72px;
   width: 217px;
-  margin-left: auto;
+  margin-left: 489px;
   margin-right: auto;
   position: relative;
   z-index: 1;
@@ -439,17 +443,192 @@ body {
   margin-bottom: 22px;
 }
 
+.collapsied-equipment {
+  padding: 98px 0 36px 0;
+  border-top: 1px solid #000;
+}
+.collapsied-equipment .second-title h2 {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 71%;
+  letter-spacing: -7px;
+  text-transform: uppercase;
+  color: #D60000;
+}
+.collapsied-equipment .second-title p {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.7em;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+.collapsied-equipment .row .equipment-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  max-width: 235px;
+  text-align: start;
+  margin-top: 86px;
+  margin-bottom: 28.48px;
+  color: #000000;
+}
+
+.col-lg-9 {
+  margin-top: 34.84px;
+}
+.col-lg-9 .equipment-slide .equipment-img {
+  margin-bottom: 27px;
+}
+.col-lg-9 .equipment-slide .equipment-img img {
+  position: relative;
+}
+.col-lg-9 .equipment-slide .img-date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 27.41px 16.91px;
+  border: 3px solid #000000;
+  border-radius: 50px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 79%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.col-lg-9 .equipment-block .equipment-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 360.24px;
+  margin-bottom: 33.53px;
+}
+.col-lg-9 .equipment-block .title-in {
+  display: flex;
+  gap: 16px;
+}
+.col-lg-9 .equipment-block .title-in h5 {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 16px;
+  line-height: 87%;
+  text-transform: uppercase;
+  max-width: 65px;
+}
+.col-lg-9 .equipment-block .title-in p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 101%;
+}
+.col-lg-9 .equipment-block .equipment-btn {
+  padding: 22px 35px;
+  border: 1px solid #D60000;
+  display: inline-block;
+}
+.col-lg-9 .equipment-block .equipment-btn .show-more {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 79%;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.col-lg-9 .equipment-price span {
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 150%;
+  margin-left: 72px;
+}
+.col-lg-9 .equipment-price p {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 87%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #D60000;
+}
+
+.swiper-buttons {
+  display: flex;
+  gap: 19.7px;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+.container-3 {
+  margin-left: 20px;
+}
+
+.useful-section {
+  padding-top: 77.8px;
+  border-top: 1px solid #000;
+}
+.useful-card .useful-card-header .useful-card-title {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 71%;
+  letter-spacing: -6.5px;
+  text-transform: uppercase;
+  color: #D60000;
+}
+.useful-card .useful-card-body {
+  display: flex;
+  gap: 31.5px;
+  position: relative;
+}
+.useful-card .useful-card-body .useful-card-subtitle {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 96%;
+  text-align: center;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: start;
+}
+.useful-card .useful-card-body .main-word h3 {
+  margin-top: 47.94px;
+  height: fit-content;
+  padding-bottom: 0.44px;
+  padding-top: 28.06px;
+  color: #D60000;
+  width: 165px;
+}
+.useful-card .useful-card-body .iphone-img {
+  position: absolute;
+  bottom: -410px;
+  right: 683px;
+}
+.useful-card .useful-card-body .useful-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 158.25px;
+  margin-bottom: 22.69px;
+}
+
+.orab-ruruvchi {
+  display: flex;
+  gap: 200px;
+}
+
+.useful-card-orab {
+  margin-top: 47.94px;
+}
+
 .info-section__header {
-  margin-bottom: 30px;
+  margin-bottom: 78px;
 }
 .info-section__header .info-section__title {
   font-weight: 900;
   font-size: 70px;
   line-height: 71%;
   text-transform: uppercase;
-  letter-spacing: -7px;
+  letter-spacing: -7px !important;
   color: #D60000;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 .info-section__nav {
@@ -514,7 +693,7 @@ body {
 .info-card__link-wrap {
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 8px;
   cursor: pointer;
 }
 .info-card__link-wrap .info-card__link {
@@ -806,7 +985,6 @@ body {
 
 .nimadir4 {
   margin-top: 11px;
-  margin-left: -15px;
 }
 
 .profile,

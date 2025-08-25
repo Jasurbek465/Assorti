@@ -415,3 +415,28 @@ $(function () {
 
 
 });
+var swiper9 = new Swiper(".collapsed-slide", {
+  slidesPerView: 2,
+  spaceBetween: 50,
+  loop: true,
+  speed: 1000,
+  pagination: {
+    el: ".swiper-pagination",  // 🔥 bu yerdan olib tashlanmasligi kerak
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next3",
+    prevEl: ".swiper-button-prev3",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 2.3,
+    },
+  },
+});

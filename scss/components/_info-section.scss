@@ -1,14 +1,14 @@
     .info-section__header {
-        margin-bottom: 30px;
+        margin-bottom: 78px;
 
         .info-section__title {
             font-weight: 900;
             font-size: 70px;
             line-height: 71%;
             text-transform: uppercase;
-            letter-spacing: -7px;
+            letter-spacing: -7px !important;
             color: #D60000;
-            margin-bottom: 10px;
+            margin-bottom: 10px !important;
         }
     }
 
@@ -88,7 +88,7 @@
     .info-card__link-wrap {
         display: flex;
         align-items: center;
-        gap: 13px;
+        gap: 8px;
         cursor: pointer;
 
         .info-card__link {

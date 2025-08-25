@@ -1,0 +1,68 @@
+.useful-section {
+    padding-top: 77.8px;
+    border-top: 1px solid #000;
+
+    .useful-container {}
+}
+
+.useful-card {
+    .useful-card-header {
+        .useful-card-title {
+            font-weight: 900;
+            font-size: 70px;
+            line-height: 71%;
+            letter-spacing: -6.5px;
+            text-transform: uppercase;
+            color: #D60000;
+        }
+
+    }
+
+    .useful-card-body {
+        display: flex;
+        gap: 31.5px;
+        position: relative;
+
+        .useful-card-subtitle {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 96%;
+            text-align: center;
+            text-transform: uppercase;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            text-align: start;
+
+        }
+
+        .main-word h3 {
+            margin-top: 47.94px;
+            height: fit-content;
+            padding-bottom: 0.44px;
+            padding-top: 28.06px;
+            color: #D60000;
+            width: 165px;
+        }
+
+        .iphone-img {
+            position: absolute;
+            bottom: -410px;
+            right: 683px;
+        }
+
+        .useful-card-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            max-width: 158.25px;
+            margin-bottom: 22.69px;
+        }
+    }
+}
+.orab-ruruvchi{
+    display: flex;
+    gap: 200px;
+}
+.useful-card-orab {
+    margin-top: 47.94px;
+}
