@@ -3,12 +3,12 @@
 
         .info-section__title {
             font-weight: 900;
-            font-size: 70px;
-            line-height: 71%;
+            font-size: 90px;
+            letter-spacing: -8.5px;
             text-transform: uppercase;
-            letter-spacing: -7px !important;
             color: #D60000;
-            margin-bottom: 10px !important;
+            margin-top: 3px;
+            margin-left: -1px;
         }
     }
 
@@ -32,6 +32,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        
 
 
 
@@ -88,7 +89,7 @@
     .info-card__link-wrap {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 5px;
         cursor: pointer;
 
         .info-card__link {
@@ -100,11 +101,13 @@
             color: #D60000;
         }
     }
+
     .info-card__link-wrap svg {
         width: 15px;
         height: 15px;
     }
-    .info-card__link-wrap:hover svg{
+
+    .info-card__link-wrap:hover svg {
         margin-left: 10px;
     }
 
@@ -138,6 +141,7 @@
         }
 
     }
+
     .info-card__footer {
         display: flex;
         align-items: center;

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assorti</title>
     <link rel="icon" href="img/logo.svg">
-    <link rel="stylesheet" href="fonts/plumb-medium/stylesheet.css">
+    <link rel="stylesheet" href="fonts/fonts/fonts/stylesheet.css">
+    <link rel="stylesheet" href="fonts/fonts/drukwidecyr-bold.css">
+    <link rel="stylesheet" href="fonts/fonts/plumb/stylesheet.css">
     <link rel="stylesheet" href="scss/base/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
@@ -50,7 +52,7 @@
                             <p>Если вам нужен оригинальный японский автомобиль с гарантировано чистой родословной, Ваш
                                 путь – на
                                 аукционы Японии.</p>
-                            <div class="info-card__link-wrap nimadir7">
+                            <div class="info-card__link-wrap">
                                 <a href="#" class="info-card__link nimadir9">Об услуге</a>
                                 <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -61,10 +63,11 @@
                             </div>
                         </div>
                         <div class="main-word">
-                            <h3 class="break-word">
-                                <span>с аукционов</span>
-                                <span>японии</span>
-                            </h3>
+                            <div class="main-word__orab">
+                                <span>c</span>
+                                <span class="nimadir14">аукционов</span>
+                            </div>
+                            <span>японии</span>
                         </div>
 
                         <div class="main-btn">
@@ -105,10 +108,6 @@
             </div>
         </section>
 
-
-
-
-
         <section class="benefits-section">
             <header class="info-section__header container-2">
                 <div class="info-section__text-block">
@@ -126,9 +125,11 @@
             <div class="nimadir11">
                 <div class="nimadir3 container-2">
                     <article class="info-card__item">
-                        <h1 class="info-card__number">18</h1>
-                        <b class="info-card__subtitle">лет возим автомобили с Востока</b>
-                        <div class="info-card__link-wrap nimadir7">
+                        <div class="orab">
+                            <h1 class="info-card__number nimadir15">18</h1>
+                            <b class="info-card__subtitle">лет возим автомобили с Востока</b>
+                        </div>
+                        <div class="info-card__link-wrap">
                             <a href="#" class="info-card__link nimadir9">История</a>
                             <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -139,8 +140,10 @@
                         </div>
                     </article>
                     <article class="info-card__item">
-                        <h1 class="info-card__number">300+</h1>
-                        <b class="info-card__subtitle">постоянных клиентов</b>
+                        <div class="orab nimadir22">
+                            <h1 class="info-card__number nimadir16">300+</h1>
+                            <b class="info-card__subtitle nimadir17">постоянных клиентов</b>
+                        </div>
                         <div class="info-card__link-wrap nimadir7">
                             <a href="#" class="info-card__link nimadir9">Как мы работаем</a>
                             <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -152,13 +155,11 @@
                         </div>
                     </article>
                     <article class="info-card__item letter-wide info-card__item--gallery">
-                        <div class="nimadir10">
+                        <div class="nimadir10 nimadir19">
                             <h1 class="info-card__number info-card__number--gallery">2000+</h1>
-                            <b class="info-card__subtitle info-card__subtitle--gallery">
-                                машин уже привезли за годы работы
-                            </b>
+                            <b class="info-card__subtitle info-card__subtitle--gallery nimadir18">машин уже привезли за годы работы</b>
                         </div>
-                        <div class="info-card__link-wrap info-card__link-wrap--gallery">
+                        <div class="info-card__link-wrap info-card__link-wrap--gallery nimadir20">
                             <a href="#" class="info-card__link info-card__link--gallery nimadir9">Смотреть галерею</a>
                             <svg class="info-card__icon info-card__icon--gallery" width="16" height="16"
                                 viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -171,8 +172,10 @@
                         <img class="border" src="img/icons/img.svg" alt="">
                     </article>
                     <article class="info-card__item">
+                        <div class="orab nimadir21">
                         <h1 class="info-card__number">0</h1>
                         <b class="info-card__subtitle">негативных отзывов</b>
+                        </div>
                         <div class="info-card__link-wrap nimadir7">
                             <a href="#" class="info-card__link nimadir9">Читать отзывы</a>
                             <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -183,6 +186,7 @@
                             </svg>
                         </div>
                     </article>
+
                     <div class="order-btn-wrapper">
                         <button class="order-btn">заказать авто</button>
                     </div>
@@ -192,9 +196,6 @@
                 </div>
             </div>
         </section>
-
-
-
 
         <section class="collapsied-equipment">
             <div class="container-3">
@@ -212,8 +213,8 @@
                                 ПТС): распилом или
                                 конструктором.</p>
 
-                            <div class="info-card__link-wrap nimadir7">
-                                <a href="#" class="info-card__link nimadir9">Читать отзывы</a>
+                            <div class="info-card__link-wrap nimadir7 nimadir23">
+                                <a href="#" class="info-card__link nimadir9">Об услуге</a>
                                 <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -226,8 +227,62 @@
 
                     <div class="col-lg-9 p-0">
                         <div class="collapsed-slide">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                            <div class="swiper-wrapperw">
+                                <div class="swiper-slidew">
+                                    <div class="equipment-slide">
+                                        <div class="equipment-img">
+                                            <img class="car-img" src="img/equipment-img1.png" alt="">
+                                            <span class="img-date">2017</span>
+                                        </div>
+                                        <div class="equipment-block">
+                                            <div class="equipment-title">
+                                                <div class="title-in">
+                                                    <h5>TOYOTA HARRIER</h5>
+                                                    <span>/</span>
+                                                    <p>ASU60W</p>
+                                                </div>
+
+                                                <div class="equipment-price">
+                                                    <span>КОНСТРУКТОР</span>
+                                                    <p>1 571 677 ₽</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="equipment-btn">
+                                                <a href="#!" class="show-more">КУПИТЬ ПОДОБНЫЙ АВТО</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slidew">
+                                    <div class="equipment-slide">
+                                        <div class="equipment-img">
+                                            <img class="car-img" src="img/equipment-img1.png" alt="">
+                                            <span class="img-date">2017</span>
+                                        </div>
+                                        <div class="equipment-block">
+                                            <div class="equipment-title">
+                                                <div class="title-in">
+                                                    <h5>TOYOTA HARRIER</h5>
+                                                    <span>/</span>
+                                                    <p>ASU60W</p>
+                                                </div>
+
+                                                <div class="equipment-price">
+                                                    <span>КОНСТРУКТОР</span>
+                                                    <p>1 571 677 ₽</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="equipment-btn">
+                                                <a href="#!" class="show-more">КУПИТЬ ПОДОБНЫЙ АВТО</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slidew">
                                     <div class="equipment-slide">
                                         <div class="equipment-img">
                                             <img src="img/equipment-img1.png" alt="">
@@ -254,7 +309,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide">
+                                <div class="swiper-slidew">
                                     <div class="equipment-slide">
                                         <div class="equipment-img">
                                             <img src="img/equipment-img1.png" alt="">
@@ -281,61 +336,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide">
-                                    <div class="equipment-slide">
-                                        <div class="equipment-img">
-                                            <img src="img/equipment-img1.png" alt="">
-                                            <span class="img-date">2017</span>
-                                        </div>
-                                        <div class="equipment-block">
-                                            <div class="equipment-title">
-                                                <div class="title-in">
-                                                    <h5>TOYOTA HARRIER</h5>
-                                                    <span>/</span>
-                                                    <p>ASU60W</p>
-                                                </div>
-
-                                                <div class="equipment-price">
-                                                    <span>КОНСТРУКТОР</span>
-                                                    <p>1 571 677 ₽</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="equipment-btn">
-                                                <a href="#!" class="show-more">КУПИТЬ ПОДОБНЫЙ АВТО</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="equipment-slide">
-                                        <div class="equipment-img">
-                                            <img src="img/equipment-img1.png" alt="">
-                                            <span class="img-date">2017</span>
-                                        </div>
-                                        <div class="equipment-block">
-                                            <div class="equipment-title">
-                                                <div class="title-in">
-                                                    <h5>TOYOTA HARRIER</h5>
-                                                    <span>/</span>
-                                                    <p>ASU60W</p>
-                                                </div>
-
-                                                <div class="equipment-price">
-                                                    <span>КОНСТРУКТОР</span>
-                                                    <p>1 571 677 ₽</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="equipment-btn">
-                                                <a href="#!" class="show-more">КУПИТЬ ПОДОБНЫЙ АВТО</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
+                                <div class="swiper-slidew">
                                     <div class="equipment-slide">
                                         <div class="equipment-img">
                                             <img src="img/equipment-img1.png" alt="">

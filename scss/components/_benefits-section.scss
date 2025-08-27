@@ -5,12 +5,13 @@
     background-size: cover;
     padding-top: 85px;
     padding-bottom: 220px;
-
+    // background-position: center -50px;
+margin-top: -123px;
     .info-section__header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // margin-bottom: 108px;
+        margin-top: 52px;
     }
 
     .info-section__text-block {
@@ -22,14 +23,17 @@
 
     .info-section__list {
         display: flex;
-        gap: 25px;
+        margin-top: -5px;
+        margin-left: 3px;
+        gap: 12px;
 
         .info-section__list-item {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 15px;
+            font-weight: 900;
+            font-size: 14px;
             line-height: 180%;
-            letter-spacing: 7px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+
         }
     }
 
@@ -38,7 +42,7 @@
         border: 2px solid black;
         border-radius: 50px;
         margin-right: 13px;
-        margin-top: 6px;
+        margin-top: 7px;
 
         .info-section__image {}
     }
@@ -46,7 +50,7 @@
 
 .nimadir3 {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
 
     .info-card__item {
@@ -62,15 +66,18 @@
             line-height: 85%;
             text-transform: uppercase;
             letter-spacing: -15px;
-            margin-top: 32px;
+            margin-top: 31px;
             margin-bottom: 20px;
-            margin-right: -22px;
+            margin-right: -20px;
         }
 
         .info-card__subtitle {
             font-weight: 700;
             font-size: 24px;
             line-height: 120%;
+            margin-top: 5px;
+            margin-left: -2px;
+            letter-spacing: 0.4px;
         }
     }
 }
@@ -89,7 +96,7 @@
 .border {
     position: absolute;
     top: -50px;
-    right: -35px;
+    right: -22px;
     z-index: -1;
     margin-right: -32px;
 
@@ -98,7 +105,7 @@
 .japan-map {
     position: absolute;
     bottom: -314px;
-    right: -186px;
+    right: -170px;
     opacity: 1;
     z-index: -1;
     transform: rotate(360deg);
@@ -133,7 +140,6 @@
     width: 298px;
     display: flex;
     align-items: center;
-    justify-content: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 79.4%;
@@ -143,6 +149,7 @@
     color: #FFFFFF;
     border: 1px solid #D60000;
     transition: all .2s linear;
+    padding-left: 32px;
 }
 
 .red-btn:hover {
@@ -162,7 +169,56 @@
 .make-meeting-sec .make-meeting .red-btn:hover {
     color: #D60000;
 }
+.swiper-slide-prev{
+    overflow: hidden;
+}
+.pc-slide-img {
+    width: 1115px !important;
+    height: 612px !important;
+    margin-top: -73px;
+}
 
 .nimadir2 {
     margin-bottom: 22px;
+}
+
+.nimadir15 {
+    margin-left: -7px;
+}
+
+.nimadir16 {
+    margin-left: 110px;
+}
+
+.nimadir7 {
+    margin-left: 183px;
+    margin-bottom: -1px;
+}
+
+.nimadir17 {
+    margin-top: -5px;
+    margin-left: 111px !important;
+}
+
+.nimadir18 {
+    max-width: 208px !important;
+}
+
+.nimadir19 {
+    margin-left: 116px;
+}
+
+.nimadir20 {
+    margin-left: 125px;
+}
+
+.nimadir21 {
+    margin-left: 187px;
+}
+
+.nimadir22 {
+    margin-left: 68px;
+}
+.nimadir23{
+    margin-left: 0;
 }

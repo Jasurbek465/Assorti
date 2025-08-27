@@ -51,7 +51,7 @@ body {
 
 .container-2 {
   max-width: 1032px;
-  margin: 0 auto;
+  margin-left: 125px;
 }
 
 .header .header__container {
@@ -82,6 +82,7 @@ body {
   background-image: url("../img/index-bg.png");
   background-repeat: no-repeat;
   background-position: top -80px right 68px;
+  margin-bottom: -53px;
 }
 
 .main-sec .main-col {
@@ -93,11 +94,11 @@ body {
   font-weight: 900;
   font-size: 140px;
   line-height: 105.52%;
-  letter-spacing: -0.16em;
+  letter-spacing: -0.15em;
   text-transform: uppercase;
   color: #D60000;
   margin-bottom: 115px;
-  margin-left: 83px;
+  margin-left: 72px;
 }
 
 .main-sec .main-text {
@@ -115,30 +116,12 @@ body {
   color: #000000;
 }
 
-.main-word h3 {
-  font-weight: 900;
-  font-size: 34px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #000;
-  border: 5px solid #000;
-  height: 487px;
-  display: flex;
-  justify-content: center;
-  width: 142px;
-  display: flex;
-  gap: 10px;
-  text-align: start;
-  padding-top: 30px;
-  margin-top: -10px;
-}
-
 .main-sec .main-btn {
   padding: 20px 0;
   background: #fff;
   position: absolute;
   right: -138px;
-  bottom: 26px;
+  bottom: 94px;
   z-index: 100;
 }
 
@@ -172,7 +155,7 @@ body {
 .main-slide .swiper-pagination2 {
   position: absolute;
   right: 18px;
-  bottom: 55px;
+  bottom: 122px;
   text-align: right;
   display: flex;
   align-items: flex-end;
@@ -278,17 +261,58 @@ body {
   display: flex;
 }
 
-.break-word > * {
+.main-word {
+  color: #000;
+  border: 5px solid #000;
+  height: 487px;
+  width: 142px;
+  text-align: start;
+  margin-top: -12px;
+  display: flex;
+  padding-top: 28px;
+  padding-left: 21px;
+}
+
+.main-word__orab {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-right: 12px;
+}
+
+.main-word__orab > .nimadir14 {
+  letter-spacing: -9px;
+  margin-left: 6px;
+}
+
+.main-word__orab > span {
+  font-family: "Druk Wide Cyr";
+  writing-mode: vertical-rl;
+  /* ustunga aylantiradi */
+  text-orientation: upright;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 96%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-word > span {
+  font-family: "Druk Wide Cyr";
   writing-mode: vertical-rl;
   /* ustunga aylantiradi */
   text-orientation: upright;
   /* harflarni to‘g‘ri turadigan qiladi */
+  text-align: start;
   font-weight: 900;
   font-size: 36px;
   line-height: 96%;
   text-align: center;
   text-transform: uppercase;
   text-align: start;
+  letter-spacing: -9px;
 }
 
 .benefits-section {
@@ -298,11 +322,13 @@ body {
   background-size: cover;
   padding-top: 85px;
   padding-bottom: 220px;
+  margin-top: -123px;
 }
 .benefits-section .info-section__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 52px;
 }
 .benefits-section .info-section__text-block .section-title {
   line-height: 105px;
@@ -310,25 +336,26 @@ body {
 }
 .benefits-section .info-section__list {
   display: flex;
-  gap: 25px;
+  margin-top: -5px;
+  margin-left: 3px;
+  gap: 12px;
 }
 .benefits-section .info-section__list .info-section__list-item {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 900;
+  font-size: 14px;
   line-height: 180%;
-  letter-spacing: 7px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 .benefits-section .info-section__image-block {
   padding: 41px 17px;
   border: 2px solid black;
   border-radius: 50px;
   margin-right: 13px;
-  margin-top: 6px;
+  margin-top: 7px;
 }
 .nimadir3 {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .nimadir3 .info-card__item {
@@ -344,14 +371,17 @@ body {
   line-height: 85%;
   text-transform: uppercase;
   letter-spacing: -15px;
-  margin-top: 32px;
+  margin-top: 31px;
   margin-bottom: 20px;
-  margin-right: -22px;
+  margin-right: -20px;
 }
 .nimadir3 .info-card__item .info-card__subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
+  margin-top: 5px;
+  margin-left: -2px;
+  letter-spacing: 0.4px;
 }
 
 .info-card__item--gallery .info-card__content {
@@ -366,7 +396,7 @@ body {
 .border {
   position: absolute;
   top: -50px;
-  right: -35px;
+  right: -22px;
   z-index: -1;
   margin-right: -32px;
 }
@@ -374,7 +404,7 @@ body {
 .japan-map {
   position: absolute;
   bottom: -314px;
-  right: -186px;
+  right: -170px;
   opacity: 1;
   z-index: -1;
   transform: rotate(360deg);
@@ -409,7 +439,6 @@ body {
   width: 298px;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 79.4%;
@@ -419,6 +448,7 @@ body {
   color: #FFFFFF;
   border: 1px solid #D60000;
   transition: all 0.2s linear;
+  padding-left: 32px;
 }
 
 .red-btn:hover {
@@ -439,19 +469,71 @@ body {
   color: #D60000;
 }
 
+.swiper-slide-prev {
+  overflow: hidden;
+}
+
+.pc-slide-img {
+  width: 1115px !important;
+  height: 612px !important;
+  margin-top: -73px;
+}
+
 .nimadir2 {
   margin-bottom: 22px;
 }
 
+.nimadir15 {
+  margin-left: -7px;
+}
+
+.nimadir16 {
+  margin-left: 110px;
+}
+
+.nimadir7 {
+  margin-left: 183px;
+  margin-bottom: -1px;
+}
+
+.nimadir17 {
+  margin-top: -5px;
+  margin-left: 111px !important;
+}
+
+.nimadir18 {
+  max-width: 208px !important;
+}
+
+.nimadir19 {
+  margin-left: 116px;
+}
+
+.nimadir20 {
+  margin-left: 125px;
+}
+
+.nimadir21 {
+  margin-left: 187px;
+}
+
+.nimadir22 {
+  margin-left: 68px;
+}
+
+.nimadir23 {
+  margin-left: 0;
+}
+
 .collapsied-equipment {
-  padding: 98px 0 36px 0;
+  padding: 90px 0 36px 0;
   border-top: 1px solid #000;
 }
 .collapsied-equipment .second-title h2 {
   font-weight: 900;
   font-size: 70px;
   line-height: 71%;
-  letter-spacing: -7px;
+  letter-spacing: -5.8px;
   text-transform: uppercase;
   color: #D60000;
 }
@@ -461,7 +543,9 @@ body {
   line-height: 180%;
   letter-spacing: 0.7em;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 .collapsied-equipment .row .equipment-text p {
   font-weight: 400;
@@ -469,25 +553,21 @@ body {
   line-height: 150%;
   max-width: 235px;
   text-align: start;
-  margin-top: 86px;
+  margin-top: 87px;
   margin-bottom: 28.48px;
   color: #000000;
+  margin-left: 2px;
 }
 
-.col-lg-9 {
-  margin-top: 34.84px;
-}
-.col-lg-9 .equipment-slide .equipment-img {
-  margin-bottom: 27px;
-}
-.col-lg-9 .equipment-slide .equipment-img img {
+.car-img {
   position: relative;
 }
-.col-lg-9 .equipment-slide .img-date {
+
+.img-date {
   position: absolute;
   top: 10px;
-  left: 10px;
-  padding: 27.41px 16.91px;
+  left: 19px;
+  padding: 24.41px 13.91px;
   border: 3px solid #000000;
   border-radius: 50px;
   font-weight: 900;
@@ -496,16 +576,23 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+.col-lg-9 {
+  margin-top: 34.84px;
+}
+.col-lg-9 .equipment-slide .equipment-img {
+  margin-bottom: 19px;
+}
 .col-lg-9 .equipment-block .equipment-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 360.24px;
-  margin-bottom: 33.53px;
+  margin-bottom: 42.53px;
 }
 .col-lg-9 .equipment-block .title-in {
   display: flex;
-  gap: 16px;
+  gap: 21px;
 }
 .col-lg-9 .equipment-block .title-in h5 {
   font-weight: 900;
@@ -519,35 +606,39 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 101%;
+  letter-spacing: -1.1px;
 }
 .col-lg-9 .equipment-block .equipment-btn {
-  padding: 22px 35px;
+  padding: 15px 31px;
   border: 1px solid #D60000;
   display: inline-block;
 }
 .col-lg-9 .equipment-block .equipment-btn .show-more {
   font-weight: 700;
-  font-style: Bold;
   font-size: 14px;
   line-height: 79%;
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #000000;
+  word-spacing: -1px;
 }
 .col-lg-9 .equipment-price span {
   font-weight: 400;
   font-size: 7px;
   line-height: 150%;
-  margin-left: 72px;
+  letter-spacing: 35.5%;
+  text-align: right;
 }
 .col-lg-9 .equipment-price p {
   font-weight: 900;
   font-size: 24px;
-  line-height: 87%;
+  line-height: 2.4px;
   text-align: right;
   text-transform: uppercase;
   color: #D60000;
+  margin-top: -9px;
+  letter-spacing: -0.5px;
 }
 
 .swiper-buttons {
@@ -559,6 +650,13 @@ body {
 
 .container-3 {
   margin-left: 20px;
+}
+
+.swiper-wrapperw {
+  display: flex;
+  margin-left: 8px;
+  gap: 55px;
+  overflow: hidden;
 }
 
 .useful-section {
@@ -623,12 +721,12 @@ body {
 }
 .info-section__header .info-section__title {
   font-weight: 900;
-  font-size: 70px;
-  line-height: 71%;
+  font-size: 90px;
+  letter-spacing: -8.5px;
   text-transform: uppercase;
-  letter-spacing: -7px !important;
   color: #D60000;
-  margin-bottom: 10px !important;
+  margin-top: 3px;
+  margin-left: -1px;
 }
 
 .info-section__nav {
@@ -693,7 +791,7 @@ body {
 .info-card__link-wrap {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
   cursor: pointer;
 }
 .info-card__link-wrap .info-card__link {
@@ -1016,7 +1114,7 @@ body {
 
 .info-card__subtitle {
   display: inline-block;
-  max-width: 150px;
+  max-width: 158px;
   line-height: 1.4;
   word-wrap: break-word;
   white-space: normal;
@@ -1203,6 +1301,7 @@ body {
   }
   .container-2 {
     padding: 8px;
+    margin: 0;
   }
   .nimadir3 .info-card__item .info-card__subtitle {
     max-width: 155px;

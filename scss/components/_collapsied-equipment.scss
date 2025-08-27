@@ -1,12 +1,12 @@
 .collapsied-equipment {
-    padding: 98px 0 36px 0;
+    padding: 90px 0 36px 0;
     border-top: 1px solid #000;
 
     .second-title h2 {
         font-weight: 900;
         font-size: 70px;
         line-height: 71%;
-        letter-spacing: -7px;
+        letter-spacing: -5.8px;
         text-transform: uppercase;
         color: #D60000;
     }
@@ -17,7 +17,9 @@
         line-height: 180%;
         letter-spacing: 0.7em;
         text-transform: uppercase;
-        word-spacing: 20px;
+        word-spacing: 40px;
+        margin-top: 10px;
+        margin-left: 5px;
     }
 
     .row {
@@ -27,38 +29,42 @@
             line-height: 150%;
             max-width: 235px;
             text-align: start;
-            margin-top: 86px;
+            margin-top: 87px;
             margin-bottom: 28.48px;
             color: #000000;
+            margin-left: 2px;
         }
     }
 }
 
+.car-img {
+    position: relative;
+}
+
+.img-date {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    padding: 24.41px 13.91px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 79%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
 .col-lg-9 {
     margin-top: 34.84px;
+
     .equipment-slide {
         .equipment-img {
-            margin-bottom: 27px;
+            margin-bottom: 19px;
         }
 
-        .equipment-img img {
-            position: relative;
-        }
 
-        .img-date {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            padding: 27.41px 16.91px;
-            border: 3px solid #000000;
-            border-radius: 50px;
-            font-weight: 900;
-            font-size: 14px;
-            line-height: 79%;
-            text-align: center;
-            text-transform: uppercase;
-
-        }
     }
 
     .equipment-block {
@@ -67,12 +73,12 @@
             justify-content: space-between;
             align-items: center;
             max-width: 360.24px;
-            margin-bottom: 33.53px;
+            margin-bottom: 42.53px;
         }
 
         .title-in {
             display: flex;
-            gap: 16px;
+            gap: 21px;
         }
 
         .title-in h5 {
@@ -88,22 +94,23 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 101%;
-
+            letter-spacing: -1.1px;
         }
 
         .equipment-btn {
-            padding: 22px 35px;
+            padding: 15px 31px;
             border: 1px solid #D60000;
-             display: inline-block; 
+            display: inline-block;
+
             .show-more {
                 font-weight: 700;
-                font-style: Bold;
                 font-size: 14px;
                 line-height: 79%;
                 text-align: center;
-                letter-spacing: 4px;
+                letter-spacing: 3px;
                 text-transform: uppercase;
                 color: #000000;
+                word-spacing: -1px;
             }
         }
     }
@@ -112,24 +119,37 @@
         font-weight: 400;
         font-size: 7px;
         line-height: 150%;
-        margin-left: 72px;
+        letter-spacing: 35.5%;
+        text-align: right;
+
     }
 
     .equipment-price p {
         font-weight: 900;
         font-size: 24px;
-        line-height: 87%;
+        line-height: 2.4px;
         text-align: right;
         text-transform: uppercase;
         color: #D60000;
+        margin-top: -9px;
+        letter-spacing: -0.5px;
     }
 }
-.swiper-buttons{
+
+.swiper-buttons {
     display: flex;
     gap: 19.7px;
     margin-top: 48px;
     cursor: pointer;
 }
-.container-3{
+
+.container-3 {
     margin-left: 20px;
+}
+
+.swiper-wrapperw {
+    display: flex;
+    margin-left: 8px;
+    gap: 55px;
+    overflow: hidden;
 }
