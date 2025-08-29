@@ -1,14 +1,15 @@
 .collapsied-equipment {
-    padding: 90px 0 36px 0;
+    padding: 90px 10px 79px 0;
     border-top: 1px solid #000;
 
     .second-title h2 {
         font-weight: 900;
         font-size: 70px;
         line-height: 71%;
-        letter-spacing: -5.8px;
+        letter-spacing: -6.2px;
         text-transform: uppercase;
         color: #D60000;
+        word-spacing: 7px;
     }
 
     .second-title p {
@@ -29,7 +30,7 @@
             line-height: 150%;
             max-width: 235px;
             text-align: start;
-            margin-top: 87px;
+            margin-top: 86px;
             margin-bottom: 28.48px;
             color: #000000;
             margin-left: 2px;
@@ -37,14 +38,14 @@
     }
 }
 
-.car-img {
+.equipment-img {
     position: relative;
 }
 
 .img-date {
     position: absolute;
     top: 10px;
-    left: 19px;
+    left: 10px;
     padding: 24.41px 13.91px;
     border: 3px solid #000000;
     border-radius: 50px;
@@ -61,7 +62,7 @@
 
     .equipment-slide {
         .equipment-img {
-            margin-bottom: 19px;
+            margin-bottom: 27px;
         }
 
 
@@ -73,7 +74,7 @@
             justify-content: space-between;
             align-items: center;
             max-width: 360.24px;
-            margin-bottom: 42.53px;
+            margin-bottom: 34.53px;
         }
 
         .title-in {
@@ -94,13 +95,14 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 101%;
-            letter-spacing: -1.1px;
+            letter-spacing: -0.6px;
         }
 
         .equipment-btn {
-            padding: 15px 31px;
+            padding: 15px 32px;
             border: 1px solid #D60000;
             display: inline-block;
+            cursor: pointer;
 
             .show-more {
                 font-weight: 700;
@@ -115,32 +117,38 @@
         }
     }
 
+    .equipment-price {
+        margin-top: -16px;
+        letter-spacing: -0.5px;
+        text-align: start;
+    }
+
     .equipment-price span {
         font-weight: 400;
         font-size: 7px;
         line-height: 150%;
-        letter-spacing: 35.5%;
         text-align: right;
-
+        letter-spacing: 2.4px;
+        margin-left: 44px;
+        margin-right: -10px;
     }
 
     .equipment-price p {
         font-weight: 900;
         font-size: 24px;
         line-height: 2.4px;
-        text-align: right;
         text-transform: uppercase;
         color: #D60000;
-        margin-top: -9px;
-        letter-spacing: -0.5px;
+
     }
 }
 
 .swiper-buttons {
     display: flex;
     gap: 19.7px;
-    margin-top: 48px;
+    margin-top: 34px;
     cursor: pointer;
+    margin-left: 6px;
 }
 
 .container-3 {
@@ -149,7 +157,7 @@
 
 .swiper-wrapperw {
     display: flex;
-    margin-left: 8px;
+    margin-left: 10px;
     gap: 55px;
     overflow: hidden;
 }

@@ -11,11 +11,51 @@
             font-weight: 900;
             font-size: 70px;
             line-height: 71%;
-            letter-spacing: -6.5px;
+            letter-spacing: -6.9px;
             text-transform: uppercase;
             color: #D60000;
         }
 
+    }
+
+    .orab-ruruvchi {
+        .useful-card-body {
+
+            .main-word,
+            .break-word {
+                padding: 0;
+            }
+
+            .main-word {
+                margin-top: 47px;
+                width: 163px;
+                height: 365px;
+                // padding-top: 20px;
+                padding-right: 32px;
+                padding-bottom: 38px;
+            }
+
+            .main-word h3 {
+                font-family: "Druk Wide Cyr";
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                margin: 0 !important;
+                padding: 0 !important;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 96%;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: -9px;
+            }
+
+            .break-rord__span {
+                margin-right: 10px;
+                text-align: start;
+                margin-top: -70px;
+                margin-left: 12px;
+            }
+        }
     }
 
     .useful-card-body {
@@ -42,27 +82,176 @@
             padding-top: 28.06px;
             color: #D60000;
             width: 165px;
+
         }
 
         .iphone-img {
             position: absolute;
-            bottom: -410px;
-            right: 683px;
+            bottom: -409px;
+            right: 3px;
+            z-index: 1;
         }
 
         .useful-card-text {
             font-weight: 400;
             font-size: 16px;
             line-height: 150%;
-            max-width: 158.25px;
-            margin-bottom: 22.69px;
+            max-width: 157.25px;
+            margin-bottom: 24.69px;
         }
     }
 }
-.orab-ruruvchi{
+
+.orab-ruruvchi {
     display: flex;
-    gap: 200px;
+    gap: 173px;
 }
+
 .useful-card-orab {
-    margin-top: 47.94px;
+    margin-top: 45.94px;
+}
+
+.useful-card--stats {
+    position: relative;
+    z-index: 1;
+    margin-top: -7px;
+
+    .useful-card-title {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 84%;
+        text-transform: uppercase;
+        color: #ffffff;
+        max-width: 267px;
+    }
+
+    .card--stats__orab {
+        .useful-card-text-orab {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #ffffff;
+            max-width: 234.06px;
+        }
+    }
+}
+
+
+.catalog-container {
+    background-image: url(../../img/dirt-1.png);
+    margin-top: 301px;
+    position: relative;
+    padding-bottom: 150px;
+    .catalog-header {
+        margin-left: 660px;
+        margin-bottom: 44px;
+        .catalog-title {
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 84%;
+            letter-spacing: -0.7px;
+            text-transform: uppercase;
+            max-width: 394px;
+            margin-bottom: 34px;
+        }
+
+        .catalog-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            max-width: 486.68px;
+            margin-left: 2px;
+        }
+    }
+}
+.bg-1{
+    position: absolute;
+    top: -104px;
+    left: 0;
+    z-index: -2;
+}    
+// .dirt-1{
+//     position: absolute;
+//     top: -92px;
+//     left: 0;
+//     z-index: -1;
+// }
+.logo-controls {
+    // margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+.card--stats__orab {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 261px;
+    margin-top: 27px;
+}
+
+.back-red__sircle {
+    position: absolute;
+    top: -160px;
+    left: -105px;
+    z-index: -1;
+}
+
+.cloud {
+    position: absolute;
+    top: -163px;
+    left: 200px;
+}
+
+.laptop-1 {
+    position: absolute;
+    bottom: -136px;
+    left: -131px;
+}
+
+.logo-slider-box {
+    position: relative;
+    width: 1280px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo-track {
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo-item {
+    min-width: 120px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.logo-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+.logo-prev,
+.logo-next {
+    position: absolute;
+    bottom: -30px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.logo-prev {
+    left: 45%;
+}
+
+.logo-next {
+    right: 45%;
 }

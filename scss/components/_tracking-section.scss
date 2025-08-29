@@ -1,0 +1,42 @@
+.tracking-section {
+    .tracking-container {
+        background-color: #D60000;
+        padding: 22px 0 23px 126px;
+        position: relative;
+        display: flex;
+        gap: 35px;
+
+        .tracking-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 110.00000000000001%;
+            max-width: 486.68px;
+            color: #FFFFFF;
+            margin-top: 7px;
+        }
+
+        .tracking-btn {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 79%;
+            letter-spacing: 3px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #D60000;
+            border: 1px solid #FFFFFF;
+            padding: 17.5px 58px 17.5px 61px;
+            color: #FFFFFF;
+            transition: all .2s linear;
+        }
+        .tracking-btn:hover {
+            color:#D60000;
+            background-color: #FFFFFF;
+            border: black 1px solid;
+        }
+        .tracking-img {
+            position: absolute;
+            top: -122px;
+            right: 10px;
+        }
+    }
+}

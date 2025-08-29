@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="fonts/fonts/fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/fonts/drukwidecyr-bold.css">
     <link rel="stylesheet" href="fonts/fonts/plumb/stylesheet.css">
+    <link rel="stylesheet" href="fonts/fonts/fonts/inter/stylesheet.css">
     <link rel="stylesheet" href="scss/base/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="swiper-offline/swiper.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -41,7 +43,7 @@
 
     <main>
 
-        <section class="main-sec">
+        <section class="main-sec container">
             <div class="container">
                 <div class="title">
                     <h1>автомобили</h1>
@@ -157,7 +159,8 @@
                     <article class="info-card__item letter-wide info-card__item--gallery">
                         <div class="nimadir10 nimadir19">
                             <h1 class="info-card__number info-card__number--gallery">2000+</h1>
-                            <b class="info-card__subtitle info-card__subtitle--gallery nimadir18">машин уже привезли за годы работы</b>
+                            <b class="info-card__subtitle info-card__subtitle--gallery nimadir18">машин уже привезли за
+                                годы работы</b>
                         </div>
                         <div class="info-card__link-wrap info-card__link-wrap--gallery nimadir20">
                             <a href="#" class="info-card__link info-card__link--gallery nimadir9">Смотреть галерею</a>
@@ -173,8 +176,8 @@
                     </article>
                     <article class="info-card__item">
                         <div class="orab nimadir21">
-                        <h1 class="info-card__number">0</h1>
-                        <b class="info-card__subtitle">негативных отзывов</b>
+                            <h1 class="info-card__number">0</h1>
+                            <b class="info-card__subtitle">негативных отзывов</b>
                         </div>
                         <div class="info-card__link-wrap nimadir7">
                             <a href="#" class="info-card__link nimadir9">Читать отзывы</a>
@@ -376,13 +379,13 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <section class="useful-section">
             <div class="useful-container container-2">
-
                 <div class="useful-card useful-card--auction">
                     <div class="useful-card-header">
                         <h1 class="useful-card-title">полезное:</h1>
@@ -391,8 +394,8 @@
                         <div class="useful-card-body">
                             <div class="main-word">
                                 <h3 class="break-word">
+                                    <span class="break-rord__span">онлайн</span>
                                     <span>аукционы</span>
-                                    <span>онлайн</span>
                                 </h3>
                             </div>
                             <img class="iphone-img" src="img/iphone.png" alt="">
@@ -419,21 +422,264 @@
 
                         <div class="useful-card useful-card--stats">
                             <h2 class="useful-card-title">статистика продаж</h2>
-                            <p class="useful-card-text">
-                                Позволяет просмотреть проданные автомобили и определиться с размером ставки на
-                                интересующий
-                                Вас
-                                автомобиль.
-                            </p>
-                            <div class="info-card__footer">
-                                <a class="info-card__link" href="#">Подробнее</a>
-                                <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
-                                        fill="#D60000" />
-                                </svg>
+                            <div class="card--stats__orab">
+                                <p class="useful-card-text-orab">Позволяет просмотреть проданные автомобили и
+                                    определиться с
+                                    размером ставки на интересующий. Вас автомобиль</p>
+                                <div class="info-card__footer">
+                                    <a class="info-card__link" href="#">Подробнее</a>
+                                    <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                            fill="#D60000" />
+                                    </svg>
+                                </div>
                             </div>
+                            <img class="back-red__sircle" src="img/index-about-round.png" alt="">
+                            <img class="cloud" src="img/cloud.png" alt="">
+                            <img class="laptop-1" src="img/laptop-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog-container">
+                <div class="catalog-header">
+                    <h2 class="catalog-title">каталоги производителей</h2>
+                    <p class="catalog-description">
+                        Страница с перечнем марок, которые вы можете купить на аукционах Японии и Южной Кореи с помощью
+                        нашей компании.
+                    </p>
+                </div>
+
+                <div class="logo-slider-box">
+                    <div class="logo-track">
+                        <div class="logo-item"><img src="img/icons/bmw-icon.svg" alt="BMW"></div>
+                        <div class="logo-item"><img src="img/icons/w-icon.svg" alt="VW"></div>
+                        <div class="logo-item"><img src="img/icons/kn-icon.svg" alt="KIA"></div>
+                        <div class="logo-item"><img src="img/icons/nissan-icon.svg" alt="Nissan"></div>
+                        <div class="logo-item"><img src="img/icons/d-icon.svg" alt="Daewoo"></div>
+                        <div class="logo-item"><img src="img/icons/n-icon.svg" alt="Hyundai"></div>
+                        <div class="logo-item"><img src="img/icons/tree-icon.svg" alt="Mitsubishi"></div>
+                    </div>
+
+                    <div class="logo-controls">
+                        <button class="logo-prev"><img src="img/icons/long-arrow-left.svg" alt=""></button>
+                        <button class="logo-next"><img src="img/icons/long-arrow-right.svg" alt=""></button>
+                    </div>
+                </div>
+                <img class="bg-1" src="img/bg-1.png" alt="">
+                <!-- <img class="dirt-1" src="img/dirt-1.png" alt=""> -->
+            </div>
+
+        </section>
+
+        <section class="tracking-section">
+            <div class="tracking-container">
+                <p class="tracking-text">
+                    Следите за движением своей покупки онлайн с помощью сервиса отслеживания судовых перевозок в
+                    реальном времени
+                </p>
+                <button class="tracking-btn">отследить</button>
+                <img class="tracking-img" src="img/ship.png" alt="Корабль">
+            </div>
+        </section>
+
+        <section class="orders-section container-3">
+            <div class="orders-header">
+                <h1 class="orders-title">заказы наших клиентов</h1>
+                <p class="orders-subtitle">какие автомобили мы привозили для своих клиентов в разные года</p>
+            </div>
+
+            <div class="orders-content">
+                <div class="orders-info">
+                    <div class="order-info__orab">
+                        <div class="orders-years">
+                            <span>2005</span>
+                            <span>2023</span>
+                        </div>
+                        <div class="dumaloq"></div>
+                    </div>
+                    <div class="orab-turuvchi">
+                        <p class="orders-description">
+                            Полную фотогалерею наших заказов по годам вы можете посмотреть на
+                        </p>
+                        <div class="info-card__link-wrap">
+                            <a href="#" class="info-card__link">Этой странице</a>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#D60000" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="orders-gallery">
+                    <div class="orders-row">
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                    </div>
+
+                    <div class="orders-row">
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                    </div>
+
+                    <div class="orders-row">
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                        <div class="orders-img"><img src="img/product-img/car1.svg" alt="" /></div>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stats-item">
+                        <h2 class="stats-number stats-h21">70+</h2>
+                        <span class="stats-label stats-span1">автомобилей</span>
+                    </div>
+
+                    <div class="stats-item">
+                        <h2 class="stats-number stats-h22">21</h2>
+                        <span class="stats-label stats-span2">распил</span>
+                    </div>
+
+                    <div class="stats-item">
+                        <h2 class="stats-number stats-h23">11</h2>
+                        <span class="stats-label stats-span3">мотоциклов</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="feedback-section">
+            <div class="container-1140 feedback-section">
+                <div class="feedback-left">
+                    <h1 class="title white">отзывы</h1>
+                    <p class="construction-info feedback">наших клиентов о работе с нашей компанией
+                        <a class="show-more-btn useful" href="#!"><span> Читать отзывы</span><svg width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                    fill="#fff"></path>
+                            </svg></a>
+                    </p>
+                    <img class="fish-img" src="img/icons/fish-img.png" alt="fish">
+                </div>
+                <div class="feedback-right">
+                    <div class="swiper feedbackSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="feedback-card">
+                                    <img class="nail-icon" src="img/icons/Subtract.svg" alt="subtract-icon">
+                                    <p class="feedback-card-info">
+                                        ––– Cпасибо большое за квалифицированную помощь! Сервисом очень доволен, с вами
+                                        намного спокойнее! Люди, лучше реально заплатить и выбрать качественное авто,
+                                        чем пытаться сэкономить там где не надо...
+                                    </p>
+                                    <div class="info-card__link-wrap">
+                                        <a href="#" class="info-card__link nimadir9">Еще</a>
+                                        <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                fill="#D60000" />
+                                        </svg>
+                                    </div>
+                                    <div class="user-rate-box">
+                                        <img class="boboy" src="img/user-img.svg" alt="">
+                                        <div>
+                                            <p class="username">Константин Константинопольский</p>
+                                            <div class="stars">
+                                                <img src="img/icons/Star.svg" alt="star">
+                                                <img src="img/icons/Star.svg" alt="star">
+                                                <img src="img/icons/Star.svg" alt="star">
+                                                <img src="img/icons/Star.svg" alt="star">
+                                                <img src="img/icons/Star.svg" alt="star">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feedback-card">
+                                    <img class="nail-icon" src="img/icons/Subtract.svg" alt="subtract-icon">
+                                    <p class="feedback-card-info">
+                                        ––– Cпасибо большое за квалифицированную помощь! Сервисом очень доволен, с вами
+                                        намного спокойнее! Люди, лучше реально заплатить и выбрать качественное авто,
+                                        чем пытаться сэкономить там где не надо...
+
+                                    </p>
+                                    <div class="info-card__link-wrap">
+                                        <a href="#" class="info-card__link nimadir9">Еще</a>
+                                        <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                fill="#D60000" />
+                                        </svg>
+                                    </div>
+                                    <div class="user-rate-box">
+                                        <img src="img/user-img.svg" alt="">
+                                        <div>
+                                            <p class="username">Константин Константинопольский</p>
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feedback-card nimadir23">
+                                    <img class="nail-icon" src="img/icons/Subtract.svg" alt="subtract-icon">
+                                    <p class="feedback-card-info">
+                                        ––– Cпасибо большое за квалифицированную помощь! Сервисом очень доволен, с вами
+                                        намного спокойнее! Люди, лучше реально заплатить и выбрать качественное авто,
+                                        чем пытаться сэкономить там где не надо...
+
+                                    </p>
+                                    <div class="info-card__link-wrap">
+                                        <a href="#" class="info-card__link nimadir9">Еще</a>
+                                        <svg class="info-card__icon" width="16" height="16" viewBox="0 0 16 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.28516 11.4438L11.2852 8.44385L8.28516 5.44385L7.23516 6.49385L8.43516 7.69385H5.28516V9.19385H8.43516L7.23516 10.3938L8.28516 11.4438ZM8.28516 15.9438C7.24766 15.9438 6.27266 15.7468 5.36016 15.3528C4.44766 14.9588 3.65391 14.4246 2.97891 13.7501C2.30391 13.0751 1.76966 12.2813 1.37616 11.3688C0.982656 10.4563 0.785656 9.48135 0.785156 8.44385C0.785156 7.40635 0.982156 6.43135 1.37616 5.51885C1.77016 4.60635 2.30441 3.8126 2.97891 3.1376C3.65391 2.4626 4.44766 1.92835 5.36016 1.53485C6.27266 1.14135 7.24766 0.944348 8.28516 0.943848C9.32266 0.943848 10.2977 1.14085 11.2102 1.53485C12.1227 1.92885 12.9164 2.4631 13.5914 3.1376C14.2664 3.8126 14.8009 4.60635 15.1949 5.51885C15.5889 6.43135 15.7857 7.40635 15.7852 8.44385C15.7852 9.48135 15.5882 10.4563 15.1942 11.3688C14.8002 12.2813 14.2659 13.0751 13.5914 13.7501C12.9164 14.4251 12.1227 14.9596 11.2102 15.3536C10.2977 15.7476 9.32266 15.9443 8.28516 15.9438ZM8.28516 14.4438C9.96016 14.4438 11.3789 13.8626 12.5414 12.7001C13.7039 11.5376 14.2852 10.1188 14.2852 8.44385C14.2852 6.76885 13.7039 5.3501 12.5414 4.1876C11.3789 3.0251 9.96016 2.44385 8.28516 2.44385C6.61016 2.44385 5.19141 3.0251 4.02891 4.1876C2.86641 5.3501 2.28516 6.76885 2.28516 8.44385C2.28516 10.1188 2.86641 11.5376 4.02891 12.7001C5.19141 13.8626 6.61016 14.4438 8.28516 14.4438Z"
+                                                fill="#D60000" />
+                                        </svg>
+                                    </div>
+                                    <div class="user-rate-box">
+                                        <img src="img/user-img.svg" alt="">
+                                        <div>
+                                            <p class="username">Константин Константинопольский</p>
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                            <img src="img/icons/Star.svg" alt="star">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-swiper-navigation-box">
+                            <div class="product-swiper-prev-2"><img src="img/icons/review-slide-arrow-left.png"
+                                    alt="left-arrow"></div>
+                            <div class="product-swiper-next-2"><img src="img/icons/review-slide-arrow-right.png"
+                                    alt="right-arrow"></div>
                         </div>
                     </div>
                 </div>
@@ -809,9 +1055,88 @@
     </footer>
 
 
+    <script>
+        const logoTrack = document.querySelector(".logo-track");
+        const logoItems = document.querySelectorAll(".logo-item");
+        const prevBtn = document.querySelector(".logo-prev");
+        const nextBtn = document.querySelector(".logo-next");
+
+        let logoIndex = 0;
+        const logoWidth = logoItems[0].offsetWidth + 40; // 1 dona kengligi + margin
+
+        // Track'ni klonlab qo'shamiz (infinite loop uchun)
+        logoTrack.innerHTML += logoTrack.innerHTML;
+
+        function moveSlider(direction) {
+            logoIndex += direction;
+
+            logoTrack.style.transition = "transform 0.5s ease";
+            logoTrack.style.transform = `translateX(${-logoIndex * logoWidth}px)`;
+
+            // Oxiriga yetganda boshidan qaytadi
+            if (logoIndex >= logoItems.length) {
+                setTimeout(() => {
+                    logoTrack.style.transition = "none";
+                    logoIndex = 0;
+                    logoTrack.style.transform = `translateX(0px)`;
+                }, 500);
+            }
+
+            // Boshidan oldinga qaytish
+            if (logoIndex < 0) {
+                setTimeout(() => {
+                    logoTrack.style.transition = "none";
+                    logoIndex = logoItems.length - 1;
+                    logoTrack.style.transform = `translateX(${-logoIndex * logoWidth}px)`;
+                }, 500);
+            }
+        }
+
+        // Tugmalarni ishlatish
+        nextBtn.addEventListener("click", () => moveSlider(1));
+        prevBtn.addEventListener("click", () => moveSlider(-1));
+
+        // Avtomatik 2 sekundda o'tadi
+        setInterval(() => moveSlider(1), 2000);
+
+
+        const track = document.querySelector(".testimonial-track");
+        const cards = document.querySelectorAll(".testimonial-card");
+        const prevBtn = document.querySelector(".testimonial-prev");
+        const nextBtn = document.querySelector(".testimonial-next");
+
+        let index = 0;
+        const cardWidth = cards[0].offsetWidth + 30; // kartochka eni + oraliq
+
+        function moveSlider(direction) {
+            index += direction;
+
+            // agar chapga oxiridan chiqsa — oxiriga qaytar
+            if (index < 0) {
+                index = cards.length - 1;
+            }
+
+            // agar o‘ngga oxiriga chiqsa — boshiga qaytar
+            if (index >= cards.length) {
+                index = 0;
+            }
+
+            track.style.transform = `translateX(${-index * cardWidth}px)`;
+            track.style.transition = "transform 0.5s ease";
+        }
+
+        // Tugmalar
+        nextBtn.addEventListener("click", () => moveSlider(1));
+        prevBtn.addEventListener("click", () => moveSlider(-1));
+
+        // Avtomatik yurishi (xohlasang olib tashlashing mumkin)
+        setInterval(() => moveSlider(1), 4000);
+    </script>
+
     <!-- js qismi -->
     <script src="bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="swiper-offline/swiper.js"></script> -->
     <script src="js/main.js"></script>
 </body>
 
