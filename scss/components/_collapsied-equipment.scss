@@ -1,7 +1,7 @@
 .collapsied-equipment {
-    padding: 90px 10px 79px 0;
+    padding: 90px 10px 55px 0;
     border-top: 1px solid #000;
-
+    overflow: hidden;
     .second-title h2 {
         font-weight: 900;
         font-size: 70px;
@@ -24,6 +24,8 @@
     }
 
     .row {
+        margin-right: -50px;
+
         .equipment-text p {
             font-weight: 400;
             font-size: 14px;
@@ -79,7 +81,7 @@
 
         .title-in {
             display: flex;
-            gap: 21px;
+            gap: 18px;
         }
 
         .title-in h5 {
@@ -88,7 +90,7 @@
             font-size: 16px;
             line-height: 87%;
             text-transform: uppercase;
-            max-width: 65px;
+            max-width: 71px;
         }
 
         .title-in p {
@@ -131,6 +133,7 @@
         letter-spacing: 2.4px;
         margin-left: 44px;
         margin-right: -10px;
+        margin-bottom: 11px;
     }
 
     .equipment-price p {
@@ -145,19 +148,35 @@
 
 .swiper-buttons {
     display: flex;
-    gap: 19.7px;
+    // gap: 19.7px;
     margin-top: 34px;
     cursor: pointer;
-    margin-left: 6px;
+    margin-left: -1px;
 }
-
+.swiper-button-next3{
+    margin-left: -4px;
+}
 .container-3 {
     margin-left: 20px;
 }
 
-.swiper-wrapperw {
-    display: flex;
-    margin-left: 10px;
-    gap: 55px;
+.collapsed-slide {
+    position: relative;
     overflow: hidden;
+}
+
+.collapsed-slide .swiper-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.collapsed-slide .swiper-buttons .swiper-button-prev3 {
+    margin-right: 20px;
+}
+.row{
+    .col-lg-9{
+        .swiper-slide{
+            // width: 367.565px !important;
+        }
+    }
 }

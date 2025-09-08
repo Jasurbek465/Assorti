@@ -103,12 +103,12 @@ body {
   text-transform: uppercase;
   color: #D60000;
   margin-bottom: 115px;
-  margin-left: 69px;
+  margin-left: 56px;
 }
 
 .main-sec .main-text {
   max-width: 113px;
-  margin-left: 68px;
+  margin-left: 56px;
   margin-right: 35px;
   text-align: start;
   margin-top: 173px;
@@ -125,8 +125,8 @@ body {
   padding: 20px 0;
   background: #fff;
   position: absolute;
-  right: -138px;
-  bottom: 94px;
+  right: -133px;
+  bottom: 95px;
   z-index: 100;
 }
 
@@ -136,7 +136,8 @@ body {
 
 .main-sec .main-content {
   margin-top: -154px;
-  margin-left: -95px;
+  margin-left: -100px;
+  margin-right: -13px;
 }
 
 .main-content .meida-slide-img {
@@ -226,7 +227,8 @@ body {
 }
 
 .main-sec .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 40px;
+  bottom: 128px;
+  margin-left: 104px;
 }
 
 .main-sec .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -448,7 +450,8 @@ body {
   font-size: 14px;
   line-height: 79.4%;
   text-align: center;
-  letter-spacing: 0.2em;
+  letter-spacing: 2.5px;
+  word-spacing: 4px;
   text-transform: uppercase;
   color: #FFFFFF;
   border: 1px solid #D60000;
@@ -531,8 +534,9 @@ body {
 }
 
 .collapsied-equipment {
-  padding: 90px 10px 79px 0;
+  padding: 90px 10px 55px 0;
   border-top: 1px solid #000;
+  overflow: hidden;
 }
 .collapsied-equipment .second-title h2 {
   font-weight: 900;
@@ -552,6 +556,9 @@ body {
   word-spacing: 40px;
   margin-top: 10px;
   margin-left: 5px;
+}
+.collapsied-equipment .row {
+  margin-right: -50px;
 }
 .collapsied-equipment .row .equipment-text p {
   font-weight: 400;
@@ -598,7 +605,7 @@ body {
 }
 .col-lg-9 .equipment-block .title-in {
   display: flex;
-  gap: 21px;
+  gap: 18px;
 }
 .col-lg-9 .equipment-block .title-in h5 {
   font-weight: 900;
@@ -606,7 +613,7 @@ body {
   font-size: 16px;
   line-height: 87%;
   text-transform: uppercase;
-  max-width: 65px;
+  max-width: 71px;
 }
 .col-lg-9 .equipment-block .title-in p {
   font-weight: 400;
@@ -643,6 +650,7 @@ body {
   letter-spacing: 2.4px;
   margin-left: 44px;
   margin-right: -10px;
+  margin-bottom: 11px;
 }
 .col-lg-9 .equipment-price p {
   font-weight: 900;
@@ -654,27 +662,57 @@ body {
 
 .swiper-buttons {
   display: flex;
-  gap: 19.7px;
   margin-top: 34px;
   cursor: pointer;
-  margin-left: 6px;
+  margin-left: -1px;
+}
+
+.swiper-button-next3 {
+  margin-left: -4px;
 }
 
 .container-3 {
   margin-left: 20px;
 }
 
-.swiper-wrapperw {
-  display: flex;
-  margin-left: 10px;
-  gap: 55px;
+.collapsed-slide {
+  position: relative;
   overflow: hidden;
+}
+
+.collapsed-slide .swiper-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.collapsed-slide .swiper-buttons .swiper-button-prev3 {
+  margin-right: 20px;
 }
 
 .useful-section {
   padding-top: 77.8px;
   border-top: 1px solid #000;
 }
+.useful-section .swiper-slide {
+  width: 138.286px !important;
+  margin-right: 42px !important;
+}
+.useful-section .col-lg-12 {
+  position: relative;
+  padding-bottom: 40px;
+}
+.useful-section .pagination-roab {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 700px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
 .useful-card .useful-card-header .useful-card-title {
   font-weight: 900;
   font-size: 70px;
@@ -715,7 +753,7 @@ body {
 }
 .useful-card .useful-card-body {
   display: flex;
-  gap: 31.5px;
+  gap: 32.5px;
   position: relative;
 }
 .useful-card .useful-card-body .useful-card-subtitle {
@@ -739,7 +777,7 @@ body {
 .useful-card .useful-card-body .iphone-img {
   position: absolute;
   bottom: -409px;
-  right: 3px;
+  right: 5px;
   z-index: 1;
 }
 .useful-card .useful-card-body .useful-card-text {
@@ -784,7 +822,27 @@ body {
   background-image: url(../../img/dirt-1.png);
   margin-top: 301px;
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 40px;
+}
+.catalog-container .prev {
+  position: absolute;
+  bottom: 0;
+  left: -109px;
+  margin-top: -43px;
+}
+.catalog-container .next {
+  position: absolute;
+  bottom: 0;
+  right: -16px;
+  margin-top: -43px;
+}
+.catalog-container .nimadir24 {
+  padding-bottom: 70px;
+  margin-inline: 30px;
+}
+.catalog-container .brand-swiper .swiper-slide-active {
+  transition: all 0.2s linear;
+  margin-left: 8px;
 }
 .catalog-container .catalog-header {
   margin-left: 660px;
@@ -794,7 +852,7 @@ body {
   font-weight: 700;
   font-size: 44px;
   line-height: 84%;
-  letter-spacing: -0.7px;
+  letter-spacing: -0.3px;
   text-transform: uppercase;
   max-width: 394px;
   margin-bottom: 34px;
@@ -861,7 +919,6 @@ body {
 }
 
 .logo-item img {
-  max-width: 100px;
   height: auto;
 }
 
@@ -881,6 +938,10 @@ body {
 
 .logo-next {
   right: 45%;
+}
+
+.faq-swiper {
+  margin-left: 32px;
 }
 
 .tracking-section .tracking-container {
@@ -1183,6 +1244,7 @@ body {
   width: 100%;
   margin-top: 140px;
   margin-left: 3px;
+  overflow: hidden;
 }
 .feedback-right .info-card__link-wrap {
   margin-left: 41px;
@@ -1198,10 +1260,6 @@ body {
 
 .swiper-slide {
   width: fit-content;
-  overflow: hidden;
-}
-
-.swiper-wrapper {
   overflow: hidden;
 }
 

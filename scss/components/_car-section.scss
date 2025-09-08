@@ -19,12 +19,12 @@
     text-transform: uppercase;
     color: #D60000;
     margin-bottom: 115px;
-    margin-left: 69px;
+    margin-left: 56px;
 }
 
 .main-sec .main-text {
     max-width: 113px;
-    margin-left: 68px;
+    margin-left: 56px;
     margin-right: 35px;
     text-align: start;
     margin-top: 173px;
@@ -43,8 +43,8 @@
     padding: 20px 0;
     background: #fff;
     position: absolute;
-    right: -138px;
-    bottom: 94px;
+    right: -133px;
+    bottom: 95px;
     z-index: 100;
 }
 
@@ -54,7 +54,8 @@
 
 .main-sec .main-content {
     margin-top: -154px;
-    margin-left: -95px;
+    margin-left: -100px;
+    margin-right: -13px;
 }
 
 .main-content .meida-slide-img {
@@ -145,7 +146,8 @@
 
 
 .main-sec .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 40px;
+    bottom: 128px;
+    margin-left: 104px;
 }
 
 .main-sec .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -196,19 +198,22 @@
     padding-top: 28px;
     padding-left: 21px;
 }
-.main-word__orab{
+
+.main-word__orab {
     display: flex;
     flex-direction: column;
     gap: 26px;
     margin-right: 12px;
 }
-.main-word__orab>.nimadir14{
-     letter-spacing: -9px;
-     margin-left: 6px;
+
+.main-word__orab>.nimadir14 {
+    letter-spacing: -9px;
+    margin-left: 6px;
 }
+
 .main-word__orab>span {
     font-family: 'Druk Wide Cyr';
-      writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
     /* ustunga aylantiradi */
     text-orientation: upright;
     display: flex;

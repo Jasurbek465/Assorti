@@ -2,7 +2,27 @@
     padding-top: 77.8px;
     border-top: 1px solid #000;
 
-    .useful-container {}
+    .swiper-slide {
+        width: 138.286px !important;
+        margin-right: 42px !important;
+    }
+
+    .col-lg-12 {
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .pagination-roab {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 700px;
+    }
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
 }
 
 .useful-card {
@@ -60,7 +80,7 @@
 
     .useful-card-body {
         display: flex;
-        gap: 31.5px;
+        gap: 32.5px;
         position: relative;
 
         .useful-card-subtitle {
@@ -88,7 +108,7 @@
         .iphone-img {
             position: absolute;
             bottom: -409px;
-            right: 3px;
+            right: 5px;
             z-index: 1;
         }
 
@@ -141,15 +161,42 @@
     background-image: url(../../img/dirt-1.png);
     margin-top: 301px;
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 40px;
+
+    .prev {
+        position: absolute;
+        bottom: 0;
+        left: -109px;
+        margin-top: -43px;
+    }
+
+    .next {
+        position: absolute;
+        bottom: 0;
+        right: -16px;
+        margin-top: -43px;
+    }
+
+    .nimadir24 {
+        padding-bottom: 70px;
+        margin-inline: 30px;
+    }
+    .brand-swiper{
+        .swiper-slide-active{
+            transition: all .2s linear;
+            margin-left: 8px;
+        }
+    }
+
     .catalog-header {
         margin-left: 660px;
         margin-bottom: 44px;
+
         .catalog-title {
             font-weight: 700;
             font-size: 44px;
             line-height: 84%;
-            letter-spacing: -0.7px;
+            letter-spacing: -0.3px;
             text-transform: uppercase;
             max-width: 394px;
             margin-bottom: 34px;
@@ -164,12 +211,14 @@
         }
     }
 }
-.bg-1{
+
+.bg-1 {
     position: absolute;
     top: -104px;
     left: 0;
     z-index: -2;
-}    
+}
+
 // .dirt-1{
 //     position: absolute;
 //     top: -92px;
@@ -234,7 +283,7 @@
 }
 
 .logo-item img {
-    max-width: 100px;
+    // max-width: 100px;
     height: auto;
 }
 
@@ -254,4 +303,9 @@
 
 .logo-next {
     right: 45%;
+}
+
+.faq-swiper {
+
+    margin-left: 32px;
 }

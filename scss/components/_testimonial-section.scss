@@ -110,6 +110,7 @@
     width: 100%;
     margin-top: 140px;
     margin-left: 3px;
+    overflow: hidden;
 
     .info-card__link-wrap {
         margin-left: 41px;
@@ -129,9 +130,6 @@
     overflow: hidden;
 }
 
-.swiper-wrapper {
-    overflow: hidden;
-}
 .product-swiper-navigation-box{
     display: flex;
     margin-top: 20px;

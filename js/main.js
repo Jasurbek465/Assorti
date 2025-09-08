@@ -1,29 +1,4 @@
-const offersSwiper = new Swiper('.special-offers__swiper', {
-  // loop: true,
-  spaceBetween: 20,
-  pagination: {
-    el: '.special-offers__pagination',
-    clickable: true,
-  },
-});
-var pagingSwiper = new Swiper(".main-slide", {
-  pagination: {
-    el: ".swiper-pagination",
-    el: ".swiper-pagination2",
-    type: "fraction",
-    formatFractionCurrent: function (number) {
-      return ('0' + number).slice(-2);
-    },
-    formatFractionTotal: function (number) {
-      return ('0' + number).slice(-2);
-    },
-    renderFraction: function (current, total) {
-      return '<span class="' + current + '"></span>' +
-        '<p>  </p>' +
-        '<span class="' + total + '"></span>';
-    }
-  },
-});
+
 $(function () {
 
   $('input[name=phone]').mask('+7 (999) 999-99-99');
@@ -415,92 +390,33 @@ $(function () {
 
 
 });
-var swiper9 = new Swiper(".collapsed-slide", {
-  slidesPerView: 2,
-  spaceBetween: 50,
-  loop: true,
-  speed: 1000,
-  pagination: {
-    el: ".swiper-pagination",  // 🔥 bu yerdan olib tashlanmasligi kerak
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next3",
-    prevEl: ".swiper-button-prev3",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 2.3,
-    },
-  },
-});
 
 
-var swiper = new Swiper(".threeSwiper", {
-  slidesPerView: 3,
-  spaceBetween: 40,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    // mobile
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 20
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30
-    },
-    // laptop va kattaroq
-    1103: {
-      slidesPerView: 3,
-      spaceBetween: 40
-    }
-  }
-});
-var swiper = new Swiper(".mySwiper", {});
-var swiper = new Swiper(".introSwiper ", {
-  pagination: {
-    el: ".swiper-pagination-grey",
-    clickable: true,
-  },
-});
-var swiper = new Swiper(".productSwiper", {
-  slidesPerView: 2.3,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: ".product-swiper-next",
-    prevEl: ".product-swiper-prev",
-  },
-});
 
-var swiper = new Swiper(".usefulSwiper", {
-  slidesPerView: 7,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: ".product-swiper-next-bottom",
-    prevEl: ".product-swiper-prev-bottom",
-  },
-});
-var swiper = new Swiper(".feedbackSwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: ".product-swiper-next-2",
-    prevEl: ".product-swiper-prev-2",
-  },
-});
-
-
+// var brandSwiper = new Swiper(".brand-swiper", {
+//   slidesPerView: 5,
+//   spaceBetween: 20,
+//   loop: true,
+//   autoplay: {
+//     delay: 2500,
+//     disableOnInteraction: false,
+//   },
+//   navigation: {
+//     nextEl: ".brand-swiper .swiper-button-next",
+//     prevEl: ".brand-swiper .swiper-button-prev",
+//   },
+//   breakpoints: {
+//     320: {
+//       slidesPerView: 2,
+//       spaceBetween: 10,
+//     },
+//     640: {
+//       slidesPerView: 3,
+//       spaceBetween: 15,
+//     },
+//     1024: {
+//       slidesPerView: 5,
+//       spaceBetween: 20,
+//     }
+//   }
+// });
