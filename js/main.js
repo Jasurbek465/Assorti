@@ -420,3 +420,25 @@ $(function () {
 //     }
 //   }
 // });
+
+const accordionHeader = document.querySelectorAll(".accordion-header");
+const accordionContent = document.querySelectorAll(".accordion-content");
+
+// for (let i = 0; i < accordionHeader.length; i++) {
+//   accordionHeader[i].addEventListener('click', () => {
+//     accordionHeader[i].classList.toggle('active');
+
+//     for(let content = 0; content < accordionContent.length; content++){
+//       accordionContent[i]
+//     }
+//   });
+// }
+
+accordionHeader.forEach((item) => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('active');
+    accordionContent.forEach(content => {
+      content.classList.toggle('active')
+    });
+  });
+})

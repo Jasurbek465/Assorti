@@ -1,0 +1,47 @@
+.qa-block {
+    padding-top: 343px;
+
+    .qa-container {
+        .qa-heading {
+            font-weight: 900;
+            font-size: 70px;
+            line-height: 71%;
+            letter-spacing: -7.5px;
+            text-transform: uppercase;
+            color: #D60000;
+            word-spacing: 13px;
+        }
+    }
+}
+.accordion {
+    color: white;
+    border: 1px black solid;
+}
+.accordion-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+    padding-inline: 20px;
+    cursor: pointer;
+    padding: 20px;
+}
+.accordion-header.active svg{
+    transform: rotate(180deg);
+}
+.accordion-header svg{
+    transition: all .2s linear;
+}
+
+.accordion-content{
+    opacity: 0;
+    max-height: 0;
+    transition: all .2s linear;
+    padding-inline: 20px;
+}
+
+.accordion-content.active{
+    opacity: 1;
+    max-height: auto;
+    padding-block: 20px;
+}

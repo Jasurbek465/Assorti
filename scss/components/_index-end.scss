@@ -1,0 +1,135 @@
+.index-about {
+    padding-top: 238px;
+}
+
+.index-about .index-about-img {
+    position: relative;
+}
+.justify-content-end{
+    .index-about-right{
+        .info-card__link-wrap{
+            margin-top: 15px;
+            gap: 21px;
+        }
+        .info-card__linkinfo-card__link{
+            margin-top: 0;
+        }
+    }
+}
+.index-about .index-about-img img {
+    width: 99.5%;
+    height: 590px;
+    object-fit: cover;
+}
+
+.index-about .index-about-img .index-about-title h3 {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70.52%;
+    letter-spacing: -6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+    word-spacing: 4px;
+}
+
+.index-about .index-about-img .index-about-title h3:last-child {
+    margin-bottom: 0;
+}
+
+.index-about .index-about-img .index-about-title {
+    position: absolute;
+    right: 108px;
+    bottom: 41px;
+    z-index: 2;
+}
+
+.index-about .index-about-img .index-about-round {
+    position: absolute;
+    bottom: -43%;
+    left: 20%;
+    width: 514px;
+    height: 500px;
+    mix-blend-mode: multiply;
+}
+
+.index-about-block {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.index-about-left span {
+    padding: 22px 41px 15px 53px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70.52%;
+    letter-spacing: -0.095em;
+    text-transform: uppercase;
+    color: #000000;
+    border: 4px solid #000000;
+    border-radius: 123px;
+    // margin-left: 40px;
+}
+
+.index-about-right {
+    max-width: 507px;
+    margin-right: 16px;
+}
+
+.index-about-right p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.index-about-right a {
+    // margin-top: 15px;
+}
+
+.index-about-text .about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+    margin-left: 23px;
+}
+
+.index-about-text .about-item:last-child {
+    margin-bottom: 0;
+}
+
+.index-about-text span {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 70.52%;
+    letter-spacing: -0.095em;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    padding: 20px 44px;
+    background: #FAFAFA;
+    border: 2px solid #000000;
+    border-radius: 82px;
+    margin-right: 36px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.index-about-text p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 95.52%;
+    text-transform: uppercase;
+    color: #D60000;
+    letter-spacing: 0.4px;
+}
+
+.col-lg-8 {
+    padding-left: 0;
+}
+
+.index-about-img {
+    margin-top: -21px;
+}
