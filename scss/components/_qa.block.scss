@@ -1,47 +1,69 @@
 .qa-block {
     padding-top: 343px;
-
+    background-image: url(../../img/icons/background-img.png);
+    background-repeat: no-repeat;
+    background-position: top -80px right 68px;
+    
     .qa-container {
+        margin-bottom: 26px;
+
         .qa-heading {
             font-weight: 900;
             font-size: 70px;
             line-height: 71%;
-            letter-spacing: -7.5px;
+            letter-spacing: -7px;
             text-transform: uppercase;
             color: #D60000;
             word-spacing: 13px;
         }
     }
 }
+
+.accordion {
+    .accordion-header>h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 81%;
+        letter-spacing: 0.5px;
+
+    }
+
+}
+
 .accordion {
     color: white;
     border: 1px black solid;
 }
-.accordion-header{
+
+.accordion-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #232323;
     padding-inline: 20px;
     cursor: pointer;
-    padding: 20px;
+    padding: 34px 34px 29px 34px;
 }
-.accordion-header.active svg{
+
+.accordion-header.active img {
     transform: rotate(180deg);
 }
-.accordion-header svg{
+
+.accordion-header svg {
     transition: all .2s linear;
 }
 
-.accordion-content{
+.accordion-content {
     opacity: 0;
     max-height: 0;
     transition: all .2s linear;
     padding-inline: 20px;
 }
 
-.accordion-content.active{
+.accordion-content.active {
     opacity: 1;
-    max-height: auto;
+    max-height: 200px;
     padding-block: 20px;
+    background-color: #232323;
+
 }

@@ -420,25 +420,29 @@ $(function () {
 //     }
 //   }
 // });
+const accordions = document.querySelectorAll(".accordion");
 
-const accordionHeader = document.querySelectorAll(".accordion-header");
-const accordionContent = document.querySelectorAll(".accordion-content");
+accordions.forEach((element, index) => {
+  const header = element.querySelector(".accordion-header");
 
-// for (let i = 0; i < accordionHeader.length; i++) {
-//   accordionHeader[i].addEventListener('click', () => {
-//     accordionHeader[i].classList.toggle('active');
+  // dastlab birinchi accordion ochilsin
+  if (index === 4) {
+    element.querySelector(".accordion-content").classList.add("active");
+    header.classList.add("active");
+  }
 
-//     for(let content = 0; content < accordionContent.length; content++){
-//       accordionContent[i]
-//     }
-//   });
-// }
-
-accordionHeader.forEach((item) => {
-  item.addEventListener('click', () => {
-    item.classList.toggle('active');
-    accordionContent.forEach(content => {
-      content.classList.toggle('active')
+  header.addEventListener("click", function () {
+    // avval hammasini yopamiz
+    accordions.forEach((item) => {
+      item.querySelector(".accordion-header").classList.remove("active");
+      item.querySelector(".accordion-content").classList.remove("active");
     });
+
+    // keyin faqat shu bosilgan headerga tegishlisini ochamiz
+    this.classList.add("active");
+    this.nextElementSibling.classList.add("active");
   });
-})
+});
+
+
+

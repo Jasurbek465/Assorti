@@ -827,7 +827,7 @@ body {
   background-image: url(../../img/dirt-1.png);
   margin-top: 301px;
   position: relative;
-  padding-bottom: 39px;
+  padding-bottom: 40px;
 }
 .catalog-container .prev {
   position: absolute;
@@ -985,7 +985,7 @@ body {
 .tracking-section .tracking-container .tracking-img {
   position: absolute;
   top: -122px;
-  right: 18px;
+  right: 10px;
 }
 
 .orders-section {
@@ -1308,7 +1308,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 17px;
-  word-spacing: 4px;
+  word-spacing: 10px;
 }
 
 .index-about .index-about-img .index-about-title h3:last-child {
@@ -1354,7 +1354,7 @@ body {
 
 .index-about-right {
   max-width: 507px;
-  margin-right: 16px;
+  margin-right: 7px;
 }
 
 .index-about-right p {
@@ -1409,15 +1409,28 @@ body {
 
 .qa-block {
   padding-top: 343px;
+  background-image: url(../../img/icons/background-img.png);
+  background-repeat: no-repeat;
+  background-position: top -80px right 68px;
+}
+.qa-block .qa-container {
+  margin-bottom: 26px;
 }
 .qa-block .qa-container .qa-heading {
   font-weight: 900;
   font-size: 70px;
   line-height: 71%;
-  letter-spacing: -7.5px;
+  letter-spacing: -7px;
   text-transform: uppercase;
   color: #D60000;
   word-spacing: 13px;
+}
+
+.accordion .accordion-header > h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 81%;
+  letter-spacing: 0.5px;
 }
 
 .accordion {
@@ -1432,10 +1445,10 @@ body {
   background-color: #232323;
   padding-inline: 20px;
   cursor: pointer;
-  padding: 20px;
+  padding: 34px 34px 29px 34px;
 }
 
-.accordion-header.active svg {
+.accordion-header.active img {
   transform: rotate(180deg);
 }
 
@@ -1452,8 +1465,9 @@ body {
 
 .accordion-content.active {
   opacity: 1;
-  max-height: auto;
+  max-height: 200px;
   padding-block: 20px;
+  background-color: #232323;
 }
 
 .info-section__header {
